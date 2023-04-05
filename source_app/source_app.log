@@ -1,0 +1,346 @@
+2023-04-04 14:30:42,375 - INFO - Database connection successful.
+2023-04-04 14:30:42,375 - INFO - <BrokerConnection node_id=bootstrap-0 host=192.168.210.21:9092 <connecting> [IPv4 ('192.168.210.21', 9092)]>: connecting to 192.168.210.21:9092 [('192.168.210.21', 9092) IPv4]
+2023-04-04 14:30:42,375 - INFO - Probing node bootstrap-0 broker version
+2023-04-04 14:30:44,388 - ERROR - Error connecting to Kafka: NoBrokersAvailable
+2023-04-04 14:43:47,752 - INFO - Database connection successful.
+2023-04-04 14:43:47,768 - INFO - <BrokerConnection node_id=bootstrap-2 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 14:43:47,768 - INFO - Probing node bootstrap-2 broker version
+2023-04-04 14:43:47,768 - INFO - <BrokerConnection node_id=bootstrap-2 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 14:43:47,877 - INFO - Broker version identified as 2.5.0
+2023-04-04 14:43:47,877 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-04-04 14:43:57,883 - INFO - New row detected.
+2023-04-04 14:43:57,884 - INFO - <BrokerConnection node_id=1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 14:43:57,885 - INFO - <BrokerConnection node_id=1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 14:43:57,885 - INFO - <BrokerConnection node_id=bootstrap-2 host=192.168.210.131:9092 <connected> [IPv4 ('192.168.210.131', 9092)]>: Closing connection. 
+2023-04-04 14:43:57,889 - INFO - Msg sent to kafka.
+Msg : {'operation': 'update', 'table_name': 'products', 'timestamp': 1680605049, 'row_data': {'new_data': {'brand': 'Fresho', 'price': 50, 'product': 'Onion (Loose)', 'category': 'Fruits & Vegetables', 'quantity': '2 kg', 'product_id': 50, 'sub_category': 'Potato, Onion & Tomato'}, 'old_data': {'brand': 'Fresho', 'price': 69.75, 'product': 'Onion (Loose)', 'category': 'Fruits & Vegetables', 'quantity': '2 kg', 'product_id': 50, 'sub_category': 'Potato, Onion & Tomato'}}}
+Msg offset : 42
+2023-04-04 14:43:57,889 - INFO - New row detected.
+2023-04-04 14:43:57,891 - INFO - Msg sent to kafka.
+Msg : {'operation': 'update', 'table_name': 'products', 'timestamp': 1680605049, 'row_data': {'new_data': {'brand': 'Fresho', 'price': 100, 'product': 'Eggs - Regular', 'category': 'Eggs, Meat & Fish', 'quantity': '1 pack', 'product_id': 51, 'sub_category': 'Farm Eggs'}, 'old_data': {'brand': 'Fresho', 'price': 100, 'product': 'Eggs - Regular', 'category': 'Eggs, Meat & Fish', 'quantity': '1 pack', 'product_id': 51, 'sub_category': 'Farm Eggs'}}}
+Msg offset : 43
+2023-04-04 14:43:57,891 - INFO - New row detected.
+2023-04-04 14:43:57,894 - INFO - Msg sent to kafka.
+Msg : {'operation': 'update', 'table_name': 'products', 'timestamp': 1680605049, 'row_data': {'new_data': {'brand': 'Harpic', 'price': 80, 'product': 'Disinfectant Toilet Cleaner Liquid - Original', 'category': 'Cleaning & Household', 'quantity': '1 L', 'product_id': 52, 'sub_category': 'Toilet Cleaners'}, 'old_data': {'brand': 'Harpic', 'price': 390, 'product': 'Disinfectant Toilet Cleaner Liquid - Original', 'category': 'Cleaning & Household', 'quantity': '1 L', 'product_id': 52, 'sub_category': 'Toilet Cleaners'}}}
+Msg offset : 44
+2023-04-04 14:44:09,957 - INFO - Closing the Kafka producer with 0 secs timeout.
+2023-04-04 14:44:09,957 - INFO - Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+2023-04-04 14:47:50,219 - INFO - Database connection successful.
+2023-04-04 14:47:50,219 - INFO - <BrokerConnection node_id=bootstrap-0 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 14:47:50,219 - INFO - Probing node bootstrap-0 broker version
+2023-04-04 14:47:50,235 - INFO - <BrokerConnection node_id=bootstrap-0 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 14:47:50,340 - INFO - Broker version identified as 2.5.0
+2023-04-04 14:47:50,340 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-04-04 14:48:05,359 - INFO - New row detected.
+2023-04-04 14:48:05,360 - INFO - <BrokerConnection node_id=1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 14:48:05,361 - INFO - <BrokerConnection node_id=1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 14:48:05,361 - INFO - <BrokerConnection node_id=bootstrap-0 host=192.168.210.76:9092 <connected> [IPv4 ('192.168.210.76', 9092)]>: Closing connection. 
+2023-04-04 14:48:05,365 - INFO - Msg sent to kafka.
+Msg : {'operation': 'insert', 'table_name': 'products', 'timestamp': 1680605295, 'row_data': {'data': {'brand': 'Fresho', 'price': 69.75, 'product': 'Onion (Loose)', 'category': 'Fruits & Vegetables', 'quantity': '2 kg', 'product_id': 53, 'sub_category': 'Potato, Onion & Tomato'}}}
+Msg offset : 45
+2023-04-04 14:48:05,365 - INFO - New row detected.
+2023-04-04 14:48:05,366 - INFO - Msg sent to kafka.
+Msg : {'operation': 'insert', 'table_name': 'products', 'timestamp': 1680605295, 'row_data': {'data': {'brand': 'Fresho', 'price': 100, 'product': 'Eggs - Regular', 'category': 'Eggs, Meat & Fish', 'quantity': '1 pack', 'product_id': 54, 'sub_category': 'Farm Eggs'}}}
+Msg offset : 46
+2023-04-04 14:48:05,366 - INFO - New row detected.
+2023-04-04 14:48:05,368 - INFO - Msg sent to kafka.
+Msg : {'operation': 'insert', 'table_name': 'products', 'timestamp': 1680605295, 'row_data': {'data': {'brand': 'Harpic', 'price': 390, 'product': 'Disinfectant Toilet Cleaner Liquid - Original', 'category': 'Cleaning & Household', 'quantity': '1 L', 'product_id': 55, 'sub_category': 'Toilet Cleaners'}}}
+Msg offset : 47
+2023-04-04 15:00:25,791 - INFO - Closing the Kafka producer with 0 secs timeout.
+2023-04-04 15:00:25,791 - INFO - Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+2023-04-04 15:05:53,056 - INFO - Database connection successful.
+2023-04-04 15:05:53,071 - INFO - <BrokerConnection node_id=bootstrap-0 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 15:05:53,071 - INFO - Probing node bootstrap-0 broker version
+2023-04-04 15:05:53,071 - INFO - <BrokerConnection node_id=bootstrap-0 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 15:05:53,181 - INFO - Broker version identified as 2.5.0
+2023-04-04 15:05:53,181 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-04-04 15:10:53,232 - INFO - <BrokerConnection node_id=1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 15:10:53,234 - INFO - <BrokerConnection node_id=1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 15:10:53,234 - INFO - <BrokerConnection node_id=bootstrap-0 host=192.168.210.76:9092 <connected> [IPv4 ('192.168.210.76', 9092)]>: Closing connection. 
+2023-04-04 15:15:38,777 - INFO - New row detected.
+2023-04-04 15:15:38,783 - INFO - Msg sent to kafka.
+Msg : {'operation': 'insert', 'table_name': 'products', 'timestamp': 1680606949, 'row_data': {'data': {'brand': 'Fresho', 'price': 69.75, 'product': 'Onion (Loose)', 'category': 'Fruits & Vegetables', 'quantity': '2 kg', 'product_id': 56, 'sub_category': 'Potato, Onion & Tomato'}}}
+Msg offset : 48
+2023-04-04 15:15:38,783 - INFO - New row detected.
+2023-04-04 15:15:38,785 - INFO - Msg sent to kafka.
+Msg : {'operation': 'insert', 'table_name': 'products', 'timestamp': 1680606949, 'row_data': {'data': {'brand': 'Fresho', 'price': 100, 'product': 'Eggs - Regular', 'category': 'Eggs, Meat & Fish', 'quantity': '1 pack', 'product_id': 57, 'sub_category': 'Farm Eggs'}}}
+Msg offset : 49
+2023-04-04 15:15:38,785 - INFO - New row detected.
+2023-04-04 15:15:38,787 - INFO - Msg sent to kafka.
+Msg : {'operation': 'insert', 'table_name': 'products', 'timestamp': 1680606949, 'row_data': {'data': {'brand': 'Harpic', 'price': 390, 'product': 'Disinfectant Toilet Cleaner Liquid - Original', 'category': 'Cleaning & Household', 'quantity': '1 L', 'product_id': 58, 'sub_category': 'Toilet Cleaners'}}}
+Msg offset : 50
+2023-04-04 15:18:18,534 - INFO - Closing the Kafka producer with 0 secs timeout.
+2023-04-04 15:18:18,534 - INFO - Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+2023-04-04 15:19:11,487 - INFO - Database connection successful.
+2023-04-04 15:19:11,494 - INFO - <BrokerConnection node_id=bootstrap-2 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 15:19:11,494 - INFO - Probing node bootstrap-2 broker version
+2023-04-04 15:19:11,495 - INFO - <BrokerConnection node_id=bootstrap-2 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 15:19:11,601 - INFO - Broker version identified as 2.5.0
+2023-04-04 15:19:11,601 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-04-04 15:19:21,612 - INFO - New row detected.
+2023-04-04 15:19:21,612 - INFO - <BrokerConnection node_id=1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 15:19:21,612 - INFO - <BrokerConnection node_id=1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 15:19:21,612 - INFO - <BrokerConnection node_id=bootstrap-2 host=192.168.210.131:9092 <connected> [IPv4 ('192.168.210.131', 9092)]>: Closing connection. 
+2023-04-04 15:19:21,612 - INFO - Msg sent to kafka.
+Msg : {'operation': 'insert', 'table_name': 'products', 'timestamp': 1680607171, 'row_data': {'data': {'brand': 'Fresho', 'price': 69.75, 'product': 'Onion (Loose)', 'category': 'Fruits & Vegetables', 'quantity': '2 kg', 'product_id': 59, 'sub_category': 'Potato, Onion & Tomato'}}}
+Msg offset : 51
+2023-04-04 15:19:21,612 - INFO - New row detected.
+2023-04-04 15:19:21,612 - INFO - Msg sent to kafka.
+Msg : {'operation': 'insert', 'table_name': 'products', 'timestamp': 1680607171, 'row_data': {'data': {'brand': 'Fresho', 'price': 100, 'product': 'Eggs - Regular', 'category': 'Eggs, Meat & Fish', 'quantity': '1 pack', 'product_id': 60, 'sub_category': 'Farm Eggs'}}}
+Msg offset : 52
+2023-04-04 15:19:21,612 - INFO - New row detected.
+2023-04-04 15:19:21,612 - INFO - Msg sent to kafka.
+Msg : {'operation': 'insert', 'table_name': 'products', 'timestamp': 1680607171, 'row_data': {'data': {'brand': 'Harpic', 'price': 390, 'product': 'Disinfectant Toilet Cleaner Liquid - Original', 'category': 'Cleaning & Household', 'quantity': '1 L', 'product_id': 61, 'sub_category': 'Toilet Cleaners'}}}
+Msg offset : 53
+2023-04-04 15:22:22,978 - INFO - Closing the Kafka producer with 0 secs timeout.
+2023-04-04 15:22:22,979 - INFO - Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+2023-04-04 15:23:12,710 - INFO - Database connection successful.
+2023-04-04 15:23:12,710 - INFO - <BrokerConnection node_id=bootstrap-0 host=192.168.210.21:9092 <connecting> [IPv4 ('192.168.210.21', 9092)]>: connecting to 192.168.210.21:9092 [('192.168.210.21', 9092) IPv4]
+2023-04-04 15:23:12,710 - INFO - Probing node bootstrap-0 broker version
+2023-04-04 15:23:14,719 - ERROR - Error connecting to Kafka: NoBrokersAvailable
+2023-04-04 15:23:17,734 - INFO - <BrokerConnection node_id=bootstrap-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 15:23:17,734 - INFO - Probing node bootstrap-0 broker version
+2023-04-04 15:23:17,734 - INFO - <BrokerConnection node_id=bootstrap-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 15:23:17,843 - INFO - Broker version identified as 2.5.0
+2023-04-04 15:23:17,843 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-04-04 15:23:32,849 - INFO - New row detected.
+2023-04-04 15:23:32,850 - INFO - <BrokerConnection node_id=1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 15:23:32,851 - INFO - <BrokerConnection node_id=1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 15:23:32,851 - INFO - <BrokerConnection node_id=bootstrap-0 host=192.168.210.131:9092 <connected> [IPv4 ('192.168.210.131', 9092)]>: Closing connection. 
+2023-04-04 15:23:32,855 - INFO - Msg sent to kafka.
+Msg : {'operation': 'delete', 'table_name': 'products', 'timestamp': 1680607422, 'row_data': {'data': {'brand': 'Fresho', 'price': 69.75, 'product': 'Onion (Loose)', 'category': 'Fruits & Vegetables', 'quantity': '2 kg', 'product_id': 59, 'sub_category': 'Potato, Onion & Tomato'}}}
+Msg offset : 54
+2023-04-04 15:23:32,855 - INFO - New row detected.
+2023-04-04 15:23:32,857 - INFO - Msg sent to kafka.
+Msg : {'operation': 'delete', 'table_name': 'products', 'timestamp': 1680607422, 'row_data': {'data': {'brand': 'Fresho', 'price': 100, 'product': 'Eggs - Regular', 'category': 'Eggs, Meat & Fish', 'quantity': '1 pack', 'product_id': 60, 'sub_category': 'Farm Eggs'}}}
+Msg offset : 55
+2023-04-04 15:23:32,857 - INFO - New row detected.
+2023-04-04 15:23:32,859 - INFO - Msg sent to kafka.
+Msg : {'operation': 'delete', 'table_name': 'products', 'timestamp': 1680607422, 'row_data': {'data': {'brand': 'Harpic', 'price': 390, 'product': 'Disinfectant Toilet Cleaner Liquid - Original', 'category': 'Cleaning & Household', 'quantity': '1 L', 'product_id': 61, 'sub_category': 'Toilet Cleaners'}}}
+Msg offset : 56
+2023-04-04 15:24:22,907 - INFO - New row detected.
+2023-04-04 15:24:22,910 - INFO - Msg sent to kafka.
+Msg : {'operation': 'insert', 'table_name': 'products', 'timestamp': 1680607471, 'row_data': {'data': {'brand': 'Fresho', 'price': 69.75, 'product': 'Onion (Loose)', 'category': 'Fruits & Vegetables', 'quantity': '2 kg', 'product_id': 62, 'sub_category': 'Potato, Onion & Tomato'}}}
+Msg offset : 57
+2023-04-04 15:24:22,910 - INFO - New row detected.
+2023-04-04 15:24:22,912 - INFO - Msg sent to kafka.
+Msg : {'operation': 'insert', 'table_name': 'products', 'timestamp': 1680607471, 'row_data': {'data': {'brand': 'Fresho', 'price': 100, 'product': 'Eggs - Regular', 'category': 'Eggs, Meat & Fish', 'quantity': '1 pack', 'product_id': 63, 'sub_category': 'Farm Eggs'}}}
+Msg offset : 58
+2023-04-04 15:24:22,912 - INFO - New row detected.
+2023-04-04 15:24:22,914 - INFO - Msg sent to kafka.
+Msg : {'operation': 'insert', 'table_name': 'products', 'timestamp': 1680607471, 'row_data': {'data': {'brand': 'Harpic', 'price': 390, 'product': 'Disinfectant Toilet Cleaner Liquid - Original', 'category': 'Cleaning & Household', 'quantity': '1 L', 'product_id': 64, 'sub_category': 'Toilet Cleaners'}}}
+Msg offset : 59
+2023-04-04 15:29:53,461 - INFO - New row detected.
+2023-04-04 15:29:53,464 - INFO - Msg sent to kafka.
+Msg : {'operation': 'delete', 'table_name': 'products', 'timestamp': 1680607805, 'row_data': {'data': {'brand': 'Fresho', 'price': 69.75, 'product': 'Onion (Loose)', 'category': 'Fruits & Vegetables', 'quantity': '2 kg', 'product_id': 62, 'sub_category': 'Potato, Onion & Tomato'}}}
+Msg offset : 60
+2023-04-04 15:29:53,464 - INFO - New row detected.
+2023-04-04 15:29:53,465 - INFO - Msg sent to kafka.
+Msg : {'operation': 'delete', 'table_name': 'products', 'timestamp': 1680607805, 'row_data': {'data': {'brand': 'Fresho', 'price': 100, 'product': 'Eggs - Regular', 'category': 'Eggs, Meat & Fish', 'quantity': '1 pack', 'product_id': 63, 'sub_category': 'Farm Eggs'}}}
+Msg offset : 61
+2023-04-04 15:29:53,465 - INFO - New row detected.
+2023-04-04 15:29:53,468 - INFO - Msg sent to kafka.
+Msg : {'operation': 'delete', 'table_name': 'products', 'timestamp': 1680607805, 'row_data': {'data': {'brand': 'Harpic', 'price': 390, 'product': 'Disinfectant Toilet Cleaner Liquid - Original', 'category': 'Cleaning & Household', 'quantity': '1 L', 'product_id': 64, 'sub_category': 'Toilet Cleaners'}}}
+Msg offset : 62
+2023-04-04 15:51:09,938 - INFO - New row detected.
+2023-04-04 15:51:09,941 - INFO - Msg sent to kafka.
+Msg : {'operation': 'insert', 'table_name': 'products', 'timestamp': 1680609080, 'row_data': {'data': {'brand': 'Fresho', 'price': 69.75, 'product': 'Onion (Loose)', 'category': 'Fruits & Vegetables', 'quantity': '2 kg', 'product_id': 65, 'sub_category': 'Potato, Onion & Tomato'}}}
+Msg offset : 63
+2023-04-04 15:51:09,941 - INFO - New row detected.
+2023-04-04 15:51:09,943 - INFO - Msg sent to kafka.
+Msg : {'operation': 'insert', 'table_name': 'products', 'timestamp': 1680609080, 'row_data': {'data': {'brand': 'Fresho', 'price': 100, 'product': 'Eggs - Regular', 'category': 'Eggs, Meat & Fish', 'quantity': '1 pack', 'product_id': 66, 'sub_category': 'Farm Eggs'}}}
+Msg offset : 64
+2023-04-04 15:51:09,943 - INFO - New row detected.
+2023-04-04 15:51:09,945 - INFO - Msg sent to kafka.
+Msg : {'operation': 'insert', 'table_name': 'products', 'timestamp': 1680609080, 'row_data': {'data': {'brand': 'Harpic', 'price': 390, 'product': 'Disinfectant Toilet Cleaner Liquid - Original', 'category': 'Cleaning & Household', 'quantity': '1 L', 'product_id': 67, 'sub_category': 'Toilet Cleaners'}}}
+Msg offset : 65
+2023-04-04 15:56:25,220 - INFO - New row detected.
+2023-04-04 15:56:25,223 - INFO - Msg sent to kafka.
+Msg : {'operation': 'delete', 'table_name': 'products', 'timestamp': 1680609397, 'row_data': {'data': {'brand': 'Fresho', 'price': 69.75, 'product': 'Onion (Loose)', 'category': 'Fruits & Vegetables', 'quantity': '2 kg', 'product_id': 65, 'sub_category': 'Potato, Onion & Tomato'}}}
+Msg offset : 66
+2023-04-04 15:56:25,223 - INFO - New row detected.
+2023-04-04 15:56:25,228 - INFO - Msg sent to kafka.
+Msg : {'operation': 'delete', 'table_name': 'products', 'timestamp': 1680609397, 'row_data': {'data': {'brand': 'Fresho', 'price': 100, 'product': 'Eggs - Regular', 'category': 'Eggs, Meat & Fish', 'quantity': '1 pack', 'product_id': 66, 'sub_category': 'Farm Eggs'}}}
+Msg offset : 67
+2023-04-04 15:56:25,229 - INFO - New row detected.
+2023-04-04 15:56:25,232 - INFO - Msg sent to kafka.
+Msg : {'operation': 'delete', 'table_name': 'products', 'timestamp': 1680609397, 'row_data': {'data': {'brand': 'Harpic', 'price': 390, 'product': 'Disinfectant Toilet Cleaner Liquid - Original', 'category': 'Cleaning & Household', 'quantity': '1 L', 'product_id': 67, 'sub_category': 'Toilet Cleaners'}}}
+Msg offset : 68
+2023-04-04 15:56:30,248 - INFO - New row detected.
+2023-04-04 15:56:30,251 - INFO - Msg sent to kafka.
+Msg : {'operation': 'insert', 'table_name': 'products', 'timestamp': 1680609403, 'row_data': {'data': {'brand': 'Fresho', 'price': 69.75, 'product': 'Onion (Loose)', 'category': 'Fruits & Vegetables', 'quantity': '2 kg', 'product_id': 68, 'sub_category': 'Potato, Onion & Tomato'}}}
+Msg offset : 69
+2023-04-04 15:56:30,251 - INFO - New row detected.
+2023-04-04 15:56:30,256 - INFO - Msg sent to kafka.
+Msg : {'operation': 'insert', 'table_name': 'products', 'timestamp': 1680609403, 'row_data': {'data': {'brand': 'Fresho', 'price': 100, 'product': 'Eggs - Regular', 'category': 'Eggs, Meat & Fish', 'quantity': '1 pack', 'product_id': 69, 'sub_category': 'Farm Eggs'}}}
+Msg offset : 70
+2023-04-04 15:56:30,256 - INFO - New row detected.
+2023-04-04 15:56:30,258 - INFO - Msg sent to kafka.
+Msg : {'operation': 'insert', 'table_name': 'products', 'timestamp': 1680609403, 'row_data': {'data': {'brand': 'Harpic', 'price': 390, 'product': 'Disinfectant Toilet Cleaner Liquid - Original', 'category': 'Cleaning & Household', 'quantity': '1 L', 'product_id': 70, 'sub_category': 'Toilet Cleaners'}}}
+Msg offset : 71
+2023-04-04 16:02:40,597 - INFO - New row detected.
+2023-04-04 16:02:40,599 - INFO - Msg sent to kafka.
+Msg : {'operation': 'delete', 'table_name': 'products', 'timestamp': 1680609773, 'row_data': {'data': {'brand': 'Fresho', 'price': 69.75, 'product': 'Onion (Loose)', 'category': 'Fruits & Vegetables', 'quantity': '2 kg', 'product_id': 68, 'sub_category': 'Potato, Onion & Tomato'}}}
+Msg offset : 72
+2023-04-04 16:02:40,599 - INFO - New row detected.
+2023-04-04 16:02:40,601 - INFO - Msg sent to kafka.
+Msg : {'operation': 'delete', 'table_name': 'products', 'timestamp': 1680609773, 'row_data': {'data': {'brand': 'Fresho', 'price': 100, 'product': 'Eggs - Regular', 'category': 'Eggs, Meat & Fish', 'quantity': '1 pack', 'product_id': 69, 'sub_category': 'Farm Eggs'}}}
+Msg offset : 73
+2023-04-04 16:02:40,601 - INFO - New row detected.
+2023-04-04 16:02:40,603 - INFO - Msg sent to kafka.
+Msg : {'operation': 'delete', 'table_name': 'products', 'timestamp': 1680609773, 'row_data': {'data': {'brand': 'Harpic', 'price': 390, 'product': 'Disinfectant Toilet Cleaner Liquid - Original', 'category': 'Cleaning & Household', 'quantity': '1 L', 'product_id': 70, 'sub_category': 'Toilet Cleaners'}}}
+Msg offset : 74
+2023-04-04 16:02:45,610 - INFO - New row detected.
+2023-04-04 16:02:45,614 - INFO - Msg sent to kafka.
+Msg : {'operation': 'insert', 'table_name': 'products', 'timestamp': 1680609778, 'row_data': {'data': {'brand': 'Fresho', 'price': 69.75, 'product': 'Onion (Loose)', 'category': 'Fruits & Vegetables', 'quantity': '2 kg', 'product_id': 71, 'sub_category': 'Potato, Onion & Tomato'}}}
+Msg offset : 75
+2023-04-04 16:02:45,614 - INFO - New row detected.
+2023-04-04 16:02:45,617 - INFO - Msg sent to kafka.
+Msg : {'operation': 'insert', 'table_name': 'products', 'timestamp': 1680609778, 'row_data': {'data': {'brand': 'Fresho', 'price': 100, 'product': 'Eggs - Regular', 'category': 'Eggs, Meat & Fish', 'quantity': '1 pack', 'product_id': 72, 'sub_category': 'Farm Eggs'}}}
+Msg offset : 76
+2023-04-04 16:02:45,617 - INFO - New row detected.
+2023-04-04 16:02:45,624 - INFO - Msg sent to kafka.
+Msg : {'operation': 'insert', 'table_name': 'products', 'timestamp': 1680609778, 'row_data': {'data': {'brand': 'Harpic', 'price': 390, 'product': 'Disinfectant Toilet Cleaner Liquid - Original', 'category': 'Cleaning & Household', 'quantity': '1 L', 'product_id': 73, 'sub_category': 'Toilet Cleaners'}}}
+Msg offset : 77
+2023-04-04 16:11:11,204 - INFO - New row detected.
+2023-04-04 16:11:11,207 - INFO - Msg sent to kafka.
+Msg : {'operation': 'update', 'table_name': 'products', 'timestamp': 1680610280, 'row_data': {'new_data': {'brand': 'Fresho', 'price': 50, 'product': 'Onion (Loose)', 'category': 'Fruits & Vegetables', 'quantity': '2 kg', 'product_id': 71, 'sub_category': 'Potato, Onion & Tomato'}, 'old_data': {'brand': 'Fresho', 'price': 69.75, 'product': 'Onion (Loose)', 'category': 'Fruits & Vegetables', 'quantity': '2 kg', 'product_id': 71, 'sub_category': 'Potato, Onion & Tomato'}}}
+Msg offset : 78
+2023-04-04 16:11:11,207 - INFO - New row detected.
+2023-04-04 16:11:11,212 - INFO - Msg sent to kafka.
+Msg : {'operation': 'update', 'table_name': 'products', 'timestamp': 1680610280, 'row_data': {'new_data': {'brand': 'Fresho', 'price': 100, 'product': 'Eggs - Regular', 'category': 'Eggs, Meat & Fish', 'quantity': '1 pack', 'product_id': 72, 'sub_category': 'Farm Eggs'}, 'old_data': {'brand': 'Fresho', 'price': 100, 'product': 'Eggs - Regular', 'category': 'Eggs, Meat & Fish', 'quantity': '1 pack', 'product_id': 72, 'sub_category': 'Farm Eggs'}}}
+Msg offset : 79
+2023-04-04 16:11:11,212 - INFO - New row detected.
+2023-04-04 16:11:11,214 - INFO - Msg sent to kafka.
+Msg : {'operation': 'update', 'table_name': 'products', 'timestamp': 1680610280, 'row_data': {'new_data': {'brand': 'Harpic', 'price': 80, 'product': 'Disinfectant Toilet Cleaner Liquid - Original', 'category': 'Cleaning & Household', 'quantity': '1 L', 'product_id': 73, 'sub_category': 'Toilet Cleaners'}, 'old_data': {'brand': 'Harpic', 'price': 390, 'product': 'Disinfectant Toilet Cleaner Liquid - Original', 'category': 'Cleaning & Household', 'quantity': '1 L', 'product_id': 73, 'sub_category': 'Toilet Cleaners'}}}
+Msg offset : 80
+2023-04-04 16:29:47,322 - INFO - New row detected.
+2023-04-04 16:29:47,326 - INFO - Msg sent to kafka.
+Msg : {'operation': 'delete', 'table_name': 'products', 'timestamp': 1680611400, 'row_data': {'data': {'brand': 'Fresho', 'price': 50, 'product': 'Onion (Loose)', 'category': 'Fruits & Vegetables', 'quantity': '2 kg', 'product_id': 71, 'sub_category': 'Potato, Onion & Tomato'}}}
+Msg offset : 81
+2023-04-04 16:29:47,326 - INFO - New row detected.
+2023-04-04 16:29:47,328 - INFO - Msg sent to kafka.
+Msg : {'operation': 'delete', 'table_name': 'products', 'timestamp': 1680611400, 'row_data': {'data': {'brand': 'Fresho', 'price': 100, 'product': 'Eggs - Regular', 'category': 'Eggs, Meat & Fish', 'quantity': '1 pack', 'product_id': 72, 'sub_category': 'Farm Eggs'}}}
+Msg offset : 82
+2023-04-04 16:29:47,328 - INFO - New row detected.
+2023-04-04 16:29:47,330 - INFO - Msg sent to kafka.
+Msg : {'operation': 'delete', 'table_name': 'products', 'timestamp': 1680611400, 'row_data': {'data': {'brand': 'Harpic', 'price': 80, 'product': 'Disinfectant Toilet Cleaner Liquid - Original', 'category': 'Cleaning & Household', 'quantity': '1 L', 'product_id': 73, 'sub_category': 'Toilet Cleaners'}}}
+Msg offset : 83
+2023-04-04 16:39:58,025 - INFO - New row detected.
+2023-04-04 16:39:58,025 - INFO - Msg sent to kafka.
+Msg : {'operation': 'insert', 'table_name': 'products', 'timestamp': 1680612010, 'row_data': {'data': {'brand': 'Fresho', 'price': 69.75, 'product': 'Onion (Loose)', 'category': 'Fruits & Vegetables', 'quantity': '2 kg', 'product_id': 74, 'sub_category': 'Potato, Onion & Tomato'}}}
+Msg offset : 84
+2023-04-04 16:39:58,025 - INFO - New row detected.
+2023-04-04 16:39:58,025 - INFO - Msg sent to kafka.
+Msg : {'operation': 'insert', 'table_name': 'products', 'timestamp': 1680612010, 'row_data': {'data': {'brand': 'Fresho', 'price': 100, 'product': 'Eggs - Regular', 'category': 'Eggs, Meat & Fish', 'quantity': '1 pack', 'product_id': 75, 'sub_category': 'Farm Eggs'}}}
+Msg offset : 85
+2023-04-04 16:39:58,025 - INFO - New row detected.
+2023-04-04 16:39:58,025 - INFO - Msg sent to kafka.
+Msg : {'operation': 'insert', 'table_name': 'products', 'timestamp': 1680612010, 'row_data': {'data': {'brand': 'Harpic', 'price': 390, 'product': 'Disinfectant Toilet Cleaner Liquid - Original', 'category': 'Cleaning & Household', 'quantity': '1 L', 'product_id': 76, 'sub_category': 'Toilet Cleaners'}}}
+Msg offset : 86
+2023-04-04 16:42:48,345 - INFO - New row detected.
+2023-04-04 16:42:48,348 - INFO - Msg sent to kafka.
+Msg : {'operation': 'update', 'table_name': 'products', 'timestamp': 1680612181, 'row_data': {'new_data': {'brand': 'Fresho', 'price': 50, 'product': 'Onion (Loose)', 'category': 'Fruits & Vegetables', 'quantity': '2 kg', 'product_id': 74, 'sub_category': 'Potato, Onion & Tomato'}, 'old_data': {'brand': 'Fresho', 'price': 69.75, 'product': 'Onion (Loose)', 'category': 'Fruits & Vegetables', 'quantity': '2 kg', 'product_id': 74, 'sub_category': 'Potato, Onion & Tomato'}}}
+Msg offset : 87
+2023-04-04 16:42:48,348 - INFO - New row detected.
+2023-04-04 16:42:48,351 - INFO - Msg sent to kafka.
+Msg : {'operation': 'update', 'table_name': 'products', 'timestamp': 1680612181, 'row_data': {'new_data': {'brand': 'Fresho', 'price': 100, 'product': 'Eggs - Regular', 'category': 'Eggs, Meat & Fish', 'quantity': '1 pack', 'product_id': 75, 'sub_category': 'Farm Eggs'}, 'old_data': {'brand': 'Fresho', 'price': 100, 'product': 'Eggs - Regular', 'category': 'Eggs, Meat & Fish', 'quantity': '1 pack', 'product_id': 75, 'sub_category': 'Farm Eggs'}}}
+Msg offset : 88
+2023-04-04 16:42:48,351 - INFO - New row detected.
+2023-04-04 16:42:48,356 - INFO - Msg sent to kafka.
+Msg : {'operation': 'update', 'table_name': 'products', 'timestamp': 1680612181, 'row_data': {'new_data': {'brand': 'Harpic', 'price': 80, 'product': 'Disinfectant Toilet Cleaner Liquid - Original', 'category': 'Cleaning & Household', 'quantity': '1 L', 'product_id': 76, 'sub_category': 'Toilet Cleaners'}, 'old_data': {'brand': 'Harpic', 'price': 390, 'product': 'Disinfectant Toilet Cleaner Liquid - Original', 'category': 'Cleaning & Household', 'quantity': '1 L', 'product_id': 76, 'sub_category': 'Toilet Cleaners'}}}
+Msg offset : 89
+2023-04-04 16:43:23,374 - INFO - New row detected.
+2023-04-04 16:43:23,374 - INFO - Msg sent to kafka.
+Msg : {'operation': 'delete', 'table_name': 'products', 'timestamp': 1680612216, 'row_data': {'data': {'brand': 'Fresho', 'price': 50, 'product': 'Onion (Loose)', 'category': 'Fruits & Vegetables', 'quantity': '2 kg', 'product_id': 74, 'sub_category': 'Potato, Onion & Tomato'}}}
+Msg offset : 90
+2023-04-04 16:43:23,374 - INFO - New row detected.
+2023-04-04 16:43:23,374 - INFO - Msg sent to kafka.
+Msg : {'operation': 'delete', 'table_name': 'products', 'timestamp': 1680612216, 'row_data': {'data': {'brand': 'Fresho', 'price': 100, 'product': 'Eggs - Regular', 'category': 'Eggs, Meat & Fish', 'quantity': '1 pack', 'product_id': 75, 'sub_category': 'Farm Eggs'}}}
+Msg offset : 91
+2023-04-04 16:43:23,374 - INFO - New row detected.
+2023-04-04 16:43:23,374 - INFO - Msg sent to kafka.
+Msg : {'operation': 'delete', 'table_name': 'products', 'timestamp': 1680612216, 'row_data': {'data': {'brand': 'Harpic', 'price': 80, 'product': 'Disinfectant Toilet Cleaner Liquid - Original', 'category': 'Cleaning & Household', 'quantity': '1 L', 'product_id': 76, 'sub_category': 'Toilet Cleaners'}}}
+Msg offset : 92
+2023-04-04 16:49:08,951 - INFO - New row detected.
+2023-04-04 16:49:08,973 - INFO - Msg sent to kafka.
+Msg : {'operation': 'insert', 'table_name': 'products', 'timestamp': 1680612559, 'row_data': {'data': {'brand': 'Fresho', 'price': 69.75, 'product': 'Onion (Loose)', 'category': 'Fruits & Vegetables', 'quantity': '2 kg', 'product_id': 77, 'sub_category': 'Potato, Onion & Tomato'}}}
+Msg offset : 93
+2023-04-04 16:49:08,973 - INFO - New row detected.
+2023-04-04 16:49:08,976 - INFO - Msg sent to kafka.
+Msg : {'operation': 'insert', 'table_name': 'products', 'timestamp': 1680612559, 'row_data': {'data': {'brand': 'Fresho', 'price': 100, 'product': 'Eggs - Regular', 'category': 'Eggs, Meat & Fish', 'quantity': '1 pack', 'product_id': 78, 'sub_category': 'Farm Eggs'}}}
+Msg offset : 94
+2023-04-04 16:49:08,976 - INFO - New row detected.
+2023-04-04 16:49:08,981 - INFO - Msg sent to kafka.
+Msg : {'operation': 'insert', 'table_name': 'products', 'timestamp': 1680612559, 'row_data': {'data': {'brand': 'Harpic', 'price': 390, 'product': 'Disinfectant Toilet Cleaner Liquid - Original', 'category': 'Cleaning & Household', 'quantity': '1 L', 'product_id': 79, 'sub_category': 'Toilet Cleaners'}}}
+Msg offset : 95
+2023-04-04 16:51:48,833 - INFO - Database connection successful.
+2023-04-04 16:51:48,848 - INFO - <BrokerConnection node_id=bootstrap-1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 16:51:48,848 - INFO - Probing node bootstrap-1 broker version
+2023-04-04 16:51:48,848 - INFO - <BrokerConnection node_id=bootstrap-1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 16:51:48,958 - INFO - Broker version identified as 2.5.0
+2023-04-04 16:51:48,958 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-04-04 16:52:54,014 - INFO - New row detected.
+2023-04-04 16:52:54,015 - INFO - <BrokerConnection node_id=1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 16:52:54,016 - INFO - <BrokerConnection node_id=1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 16:52:54,016 - INFO - <BrokerConnection node_id=bootstrap-1 host=192.168.210.76:9092 <connected> [IPv4 ('192.168.210.76', 9092)]>: Closing connection. 
+2023-04-04 16:52:54,020 - INFO - Msg sent to kafka.
+Msg : {'operation': 'update', 'table_name': 'products', 'timestamp': 1680612787, 'row_data': {'new_data': {'brand': 'Fresho', 'price': 50, 'product': 'Onion (Loose)', 'category': 'Fruits & Vegetables', 'quantity': '2 kg', 'product_id': 77, 'sub_category': 'Potato, Onion & Tomato'}, 'old_data': {'brand': 'Fresho', 'price': 69.75, 'product': 'Onion (Loose)', 'category': 'Fruits & Vegetables', 'quantity': '2 kg', 'product_id': 77, 'sub_category': 'Potato, Onion & Tomato'}}}
+Msg offset : 96
+2023-04-04 16:52:54,020 - INFO - New row detected.
+2023-04-04 16:52:54,022 - INFO - Msg sent to kafka.
+Msg : {'operation': 'update', 'table_name': 'products', 'timestamp': 1680612787, 'row_data': {'new_data': {'brand': 'Fresho', 'price': 100, 'product': 'Eggs - Regular', 'category': 'Eggs, Meat & Fish', 'quantity': '1 pack', 'product_id': 78, 'sub_category': 'Farm Eggs'}, 'old_data': {'brand': 'Fresho', 'price': 100, 'product': 'Eggs - Regular', 'category': 'Eggs, Meat & Fish', 'quantity': '1 pack', 'product_id': 78, 'sub_category': 'Farm Eggs'}}}
+Msg offset : 97
+2023-04-04 16:52:54,022 - INFO - New row detected.
+2023-04-04 16:52:54,024 - INFO - Msg sent to kafka.
+Msg : {'operation': 'update', 'table_name': 'products', 'timestamp': 1680612787, 'row_data': {'new_data': {'brand': 'Harpic', 'price': 80, 'product': 'Disinfectant Toilet Cleaner Liquid - Original', 'category': 'Cleaning & Household', 'quantity': '1 L', 'product_id': 79, 'sub_category': 'Toilet Cleaners'}, 'old_data': {'brand': 'Harpic', 'price': 390, 'product': 'Disinfectant Toilet Cleaner Liquid - Original', 'category': 'Cleaning & Household', 'quantity': '1 L', 'product_id': 79, 'sub_category': 'Toilet Cleaners'}}}
+Msg offset : 98
+2023-04-04 16:53:19,035 - INFO - New row detected.
+2023-04-04 16:53:19,037 - INFO - Msg sent to kafka.
+Msg : {'operation': 'delete', 'table_name': 'products', 'timestamp': 1680612812, 'row_data': {'data': {'brand': 'Fresho', 'price': 50, 'product': 'Onion (Loose)', 'category': 'Fruits & Vegetables', 'quantity': '2 kg', 'product_id': 77, 'sub_category': 'Potato, Onion & Tomato'}}}
+Msg offset : 99
+2023-04-04 16:53:19,037 - INFO - New row detected.
+2023-04-04 16:53:19,040 - INFO - Msg sent to kafka.
+Msg : {'operation': 'delete', 'table_name': 'products', 'timestamp': 1680612812, 'row_data': {'data': {'brand': 'Fresho', 'price': 100, 'product': 'Eggs - Regular', 'category': 'Eggs, Meat & Fish', 'quantity': '1 pack', 'product_id': 78, 'sub_category': 'Farm Eggs'}}}
+Msg offset : 100
+2023-04-04 16:53:19,040 - INFO - New row detected.
+2023-04-04 16:53:19,043 - INFO - Msg sent to kafka.
+Msg : {'operation': 'delete', 'table_name': 'products', 'timestamp': 1680612812, 'row_data': {'data': {'brand': 'Harpic', 'price': 80, 'product': 'Disinfectant Toilet Cleaner Liquid - Original', 'category': 'Cleaning & Household', 'quantity': '1 L', 'product_id': 79, 'sub_category': 'Toilet Cleaners'}}}
+Msg offset : 101
+2023-04-04 16:53:37,239 - INFO - Closing the Kafka producer with 0 secs timeout.
+2023-04-04 16:53:37,239 - INFO - Proceeding to force close the producer since pending requests could not be completed within timeout 0.
+2023-04-05 15:16:25,752 [INFO] Database connection successful.
+2023-04-05 15:16:25,761 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-05 15:16:25,761 [INFO] Probing node bootstrap-0 broker version
+2023-04-05 15:16:25,762 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-05 15:16:25,868 [INFO] Broker version identified as 2.5.0
+2023-04-05 15:16:25,868 [INFO] Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-04-05 15:16:25,869 [INFO] Kafka connect successful.
+2023-04-05 15:16:25,870 [INFO] 2023-04-05 15:16:25 - Running. Last scanned row ID of log table : 192
+2023-04-05 15:16:30,873 [INFO] 2023-04-05 15:16:30 - Running. Last scanned row ID of log table : 192
+2023-04-05 15:16:35,887 [INFO] 2023-04-05 15:16:35 - Running. Last scanned row ID of log table : 192
+2023-04-05 15:16:40,888 [INFO] 2023-04-05 15:16:40 - Running. Last scanned row ID of log table : 192
+2023-04-05 15:16:40,891 [INFO] New row detected.
+2023-04-05 15:16:40,892 [INFO] <BrokerConnection node_id=1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-05 15:16:40,893 [INFO] <BrokerConnection node_id=1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-05 15:16:40,894 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.131:9092 <connected> [IPv4 ('192.168.210.131', 9092)]>: Closing connection. 
+2023-04-05 15:16:40,898 [INFO] Msg sent to kafka.
+Msg : {'operation': 'insert', 'table_name': 'products', 'timestamp': 1680693411, 'row_data': {'data': {'brand': 'Fresho', 'price': 69.75, 'product': 'Onion (Loose)', 'category': 'Fruits & Vegetables', 'quantity': '2 kg', 'product_id': 80, 'sub_category': 'Potato, Onion & Tomato'}}}
+Msg offset : 102
+2023-04-05 15:16:40,898 [INFO] New row detected.
+2023-04-05 15:16:40,901 [INFO] Msg sent to kafka.
+Msg : {'operation': 'insert', 'table_name': 'products', 'timestamp': 1680693411, 'row_data': {'data': {'brand': 'Fresho', 'price': 100, 'product': 'Eggs - Regular', 'category': 'Eggs, Meat & Fish', 'quantity': '1 pack', 'product_id': 81, 'sub_category': 'Farm Eggs'}}}
+Msg offset : 103
+2023-04-05 15:16:40,901 [INFO] New row detected.
+2023-04-05 15:16:40,903 [INFO] Msg sent to kafka.
+Msg : {'operation': 'insert', 'table_name': 'products', 'timestamp': 1680693411, 'row_data': {'data': {'brand': 'Harpic', 'price': 390, 'product': 'Disinfectant Toilet Cleaner Liquid - Original', 'category': 'Cleaning & Household', 'quantity': '1 L', 'product_id': 82, 'sub_category': 'Toilet Cleaners'}}}
+Msg offset : 104
+2023-04-05 15:16:45,904 [INFO] 2023-04-05 15:16:45 - Running. Last scanned row ID of log table : 195
+2023-04-05 15:16:50,906 [INFO] 2023-04-05 15:16:50 - Running. Last scanned row ID of log table : 195
+2023-04-05 15:16:55,908 [INFO] 2023-04-05 15:16:55 - Running. Last scanned row ID of log table : 195
+2023-04-05 15:17:00,920 [INFO] 2023-04-05 15:17:00 - Running. Last scanned row ID of log table : 195
+2023-04-05 15:17:05,926 [INFO] 2023-04-05 15:17:05 - Running. Last scanned row ID of log table : 195
+2023-04-05 15:17:10,927 [INFO] 2023-04-05 15:17:10 - Running. Last scanned row ID of log table : 195
+2023-04-05 15:17:15,929 [INFO] 2023-04-05 15:17:15 - Running. Last scanned row ID of log table : 195
+2023-04-05 15:17:19,236 [INFO] Closing the Kafka producer with 0 secs timeout.
+2023-04-05 15:17:19,236 [INFO] Proceeding to force close the producer since pending requests could not be completed within timeout 0.

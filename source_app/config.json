@@ -1,0 +1,13 @@
+{
+    "dbhost": "192.168.210.192",
+    "dbuser": "root",
+    "dbpassword": "co1PLXW#xx0R",
+    "db": "ecommerce",
+    "log_table": "log_table",
+    "kfservers": ["192.168.210.131:9092","192.168.210.76:9092","192.168.210.21:9092"],
+    "kftopic": "postgresql_source",
+    "sync_duration": 5,
+    "esservers" : ["http://192.168.210.144:9200"],
+    "esindex": "products",
+    "kfpart": 0
+}

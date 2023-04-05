@@ -1,0 +1,1095 @@
+2023-04-04 14:28:27,053 - INFO - ES coonection successful.
+2023-04-04 14:28:27,058 - INFO - <BrokerConnection node_id=bootstrap-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 14:28:27,058 - INFO - Probing node bootstrap-0 broker version
+2023-04-04 14:28:27,059 - INFO - <BrokerConnection node_id=bootstrap-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 14:28:27,164 - INFO - Broker version identified as 2.5.0
+2023-04-04 14:28:27,164 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-04-04 14:28:27,166 - INFO - <BrokerConnection node_id=bootstrap-2 host=192.168.210.21:9092 <connecting> [IPv4 ('192.168.210.21', 9092)]>: connecting to 192.168.210.21:9092 [('192.168.210.21', 9092) IPv4]
+2023-04-04 14:28:27,167 - INFO - Group coordinator for es-sink-app is BrokerMetadata(nodeId='coordinator-0', host='192.168.210.131', port=9092, rack=None)
+2023-04-04 14:28:27,167 - INFO - Discovered coordinator coordinator-0 for group es-sink-app
+2023-04-04 14:28:27,167 - INFO - <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 14:28:27,269 - INFO - <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 14:28:27,269 - INFO - <BrokerConnection node_id=bootstrap-0 host=192.168.210.131:9092 <connected> [IPv4 ('192.168.210.131', 9092)]>: Closing connection. 
+2023-04-04 14:28:27,269 - INFO - <BrokerConnection node_id=bootstrap-2 host=192.168.210.21:9092 <connecting> [IPv4 ('192.168.210.21', 9092)]>: Closing connection. 
+2023-04-04 14:28:27,476 - INFO - <BrokerConnection node_id=bootstrap-1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 14:28:27,585 - INFO - <BrokerConnection node_id=bootstrap-1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 14:28:27,788 - INFO - <BrokerConnection node_id=1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 14:28:27,889 - INFO - <BrokerConnection node_id=1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 14:28:27,889 - INFO - <BrokerConnection node_id=bootstrap-1 host=192.168.210.76:9092 <connected> [IPv4 ('192.168.210.76', 9092)]>: Closing connection. 
+2023-04-04 14:43:22,129 - INFO - ES coonection successful.
+2023-04-04 14:43:22,129 - INFO - <BrokerConnection node_id=bootstrap-1 host=192.168.210.21:9092 <connecting> [IPv4 ('192.168.210.21', 9092)]>: connecting to 192.168.210.21:9092 [('192.168.210.21', 9092) IPv4]
+2023-04-04 14:43:22,129 - INFO - Probing node bootstrap-1 broker version
+2023-04-04 14:43:24,130 - ERROR - Error connecting to Kafka: NoBrokersAvailable
+2023-04-04 14:43:27,135 - INFO - <BrokerConnection node_id=bootstrap-2 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 14:43:27,135 - INFO - Probing node bootstrap-2 broker version
+2023-04-04 14:43:27,135 - INFO - <BrokerConnection node_id=bootstrap-2 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 14:43:27,241 - INFO - Broker version identified as 2.5.0
+2023-04-04 14:43:27,241 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-04-04 14:43:27,242 - INFO - <BrokerConnection node_id=bootstrap-0 host=192.168.210.21:9092 <connecting> [IPv4 ('192.168.210.21', 9092)]>: connecting to 192.168.210.21:9092 [('192.168.210.21', 9092) IPv4]
+2023-04-04 14:43:27,243 - INFO - Group coordinator for es-sink-app is BrokerMetadata(nodeId='coordinator-0', host='192.168.210.131', port=9092, rack=None)
+2023-04-04 14:43:27,243 - INFO - Discovered coordinator coordinator-0 for group es-sink-app
+2023-04-04 14:43:27,244 - INFO - <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 14:43:27,345 - INFO - <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 14:43:27,345 - INFO - <BrokerConnection node_id=bootstrap-2 host=192.168.210.76:9092 <connected> [IPv4 ('192.168.210.76', 9092)]>: Closing connection. 
+2023-04-04 14:43:27,345 - INFO - <BrokerConnection node_id=bootstrap-0 host=192.168.210.21:9092 <connecting> [IPv4 ('192.168.210.21', 9092)]>: Closing connection. 
+2023-04-04 14:43:27,556 - INFO - <BrokerConnection node_id=bootstrap-1 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 14:43:27,661 - INFO - <BrokerConnection node_id=bootstrap-1 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 14:43:27,866 - INFO - <BrokerConnection node_id=1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 14:43:27,867 - INFO - <BrokerConnection node_id=1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 14:43:27,867 - INFO - <BrokerConnection node_id=bootstrap-1 host=192.168.210.131:9092 <connected> [IPv4 ('192.168.210.131', 9092)]>: Closing connection. 
+2023-04-04 14:47:53,556 - INFO - ES coonection successful.
+2023-04-04 14:47:53,558 - INFO - <BrokerConnection node_id=bootstrap-1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 14:47:53,558 - INFO - Probing node bootstrap-1 broker version
+2023-04-04 14:47:53,558 - INFO - <BrokerConnection node_id=bootstrap-1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 14:47:53,667 - INFO - Broker version identified as 2.5.0
+2023-04-04 14:47:53,667 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-04-04 14:47:53,667 - INFO - <BrokerConnection node_id=bootstrap-2 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 14:47:53,667 - INFO - Group coordinator for es-sink-app is BrokerMetadata(nodeId='coordinator-0', host='192.168.210.131', port=9092, rack=None)
+2023-04-04 14:47:53,667 - INFO - Discovered coordinator coordinator-0 for group es-sink-app
+2023-04-04 14:47:53,667 - INFO - <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 14:47:53,667 - INFO - <BrokerConnection node_id=bootstrap-2 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 14:47:53,777 - INFO - <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 14:47:53,777 - INFO - <BrokerConnection node_id=bootstrap-1 host=192.168.210.76:9092 <connected> [IPv4 ('192.168.210.76', 9092)]>: Closing connection. 
+2023-04-04 14:47:53,777 - INFO - <BrokerConnection node_id=bootstrap-2 host=192.168.210.131:9092 <connected> [IPv4 ('192.168.210.131', 9092)]>: Closing connection. 
+2023-04-04 14:47:53,996 - INFO - <BrokerConnection node_id=bootstrap-0 host=192.168.210.21:9092 <connecting> [IPv4 ('192.168.210.21', 9092)]>: connecting to 192.168.210.21:9092 [('192.168.210.21', 9092) IPv4]
+2023-04-04 14:48:36,623 - INFO - ES coonection successful.
+2023-04-04 14:48:36,623 - INFO - <BrokerConnection node_id=bootstrap-0 host=192.168.210.21:9092 <connecting> [IPv4 ('192.168.210.21', 9092)]>: connecting to 192.168.210.21:9092 [('192.168.210.21', 9092) IPv4]
+2023-04-04 14:48:36,639 - INFO - Probing node bootstrap-0 broker version
+2023-04-04 14:48:38,655 - ERROR - Error connecting to Kafka: NoBrokersAvailable
+2023-04-04 14:48:41,656 - INFO - <BrokerConnection node_id=bootstrap-2 host=192.168.210.21:9092 <connecting> [IPv4 ('192.168.210.21', 9092)]>: connecting to 192.168.210.21:9092 [('192.168.210.21', 9092) IPv4]
+2023-04-04 14:48:41,656 - INFO - Probing node bootstrap-2 broker version
+2023-04-04 14:48:43,682 - ERROR - Error connecting to Kafka: NoBrokersAvailable
+2023-04-04 14:48:46,695 - INFO - <BrokerConnection node_id=bootstrap-0 host=192.168.210.21:9092 <connecting> [IPv4 ('192.168.210.21', 9092)]>: connecting to 192.168.210.21:9092 [('192.168.210.21', 9092) IPv4]
+2023-04-04 14:48:46,695 - INFO - Probing node bootstrap-0 broker version
+2023-04-04 14:48:48,710 - ERROR - Error connecting to Kafka: NoBrokersAvailable
+2023-04-04 14:48:53,967 - INFO - ES coonection successful.
+2023-04-04 14:48:53,967 - INFO - <BrokerConnection node_id=bootstrap-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 14:48:53,967 - INFO - Probing node bootstrap-0 broker version
+2023-04-04 14:48:53,967 - INFO - <BrokerConnection node_id=bootstrap-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 14:48:54,081 - INFO - Broker version identified as 2.5.0
+2023-04-04 14:48:54,081 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-04-04 14:48:54,081 - INFO - <BrokerConnection node_id=bootstrap-2 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 14:48:54,081 - INFO - Group coordinator for es-sink-app is BrokerMetadata(nodeId='coordinator-0', host='192.168.210.131', port=9092, rack=None)
+2023-04-04 14:48:54,081 - INFO - Discovered coordinator coordinator-0 for group es-sink-app
+2023-04-04 14:48:54,097 - INFO - <BrokerConnection node_id=bootstrap-2 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 14:48:54,097 - INFO - <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 14:48:54,206 - INFO - <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 14:48:54,206 - INFO - <BrokerConnection node_id=bootstrap-0 host=192.168.210.131:9092 <connected> [IPv4 ('192.168.210.131', 9092)]>: Closing connection. 
+2023-04-04 14:48:54,206 - INFO - <BrokerConnection node_id=bootstrap-2 host=192.168.210.76:9092 <connected> [IPv4 ('192.168.210.76', 9092)]>: Closing connection. 
+2023-04-04 14:48:54,416 - INFO - <BrokerConnection node_id=bootstrap-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 14:48:54,517 - INFO - <BrokerConnection node_id=bootstrap-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 14:48:54,721 - INFO - <BrokerConnection node_id=1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 14:48:54,722 - INFO - <BrokerConnection node_id=1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 14:48:54,722 - INFO - <BrokerConnection node_id=bootstrap-0 host=192.168.210.131:9092 <connected> [IPv4 ('192.168.210.131', 9092)]>: Closing connection. 
+2023-04-04 14:53:54,663 - INFO - <BrokerConnection node_id=2 host=192.168.210.214:9092 <connecting> [IPv4 ('192.168.210.214', 9092)]>: connecting to 192.168.210.214:9092 [('192.168.210.214', 9092) IPv4]
+2023-04-04 14:53:54,665 - INFO - <BrokerConnection node_id=2 host=192.168.210.214:9092 <connecting> [IPv4 ('192.168.210.214', 9092)]>: Connection complete.
+2023-04-04 14:54:28,145 - INFO - ES coonection successful.
+2023-04-04 14:54:28,160 - INFO - <BrokerConnection node_id=bootstrap-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 14:54:28,160 - INFO - Probing node bootstrap-0 broker version
+2023-04-04 14:54:28,160 - INFO - <BrokerConnection node_id=bootstrap-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 14:54:28,270 - INFO - Broker version identified as 2.5.0
+2023-04-04 14:54:28,270 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-04-04 14:54:37,298 - INFO - ES coonection successful.
+2023-04-04 14:54:37,298 - INFO - <BrokerConnection node_id=bootstrap-2 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 14:54:37,298 - INFO - Probing node bootstrap-2 broker version
+2023-04-04 14:54:37,298 - INFO - <BrokerConnection node_id=bootstrap-2 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 14:54:37,407 - INFO - Broker version identified as 2.5.0
+2023-04-04 14:54:37,407 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-04-04 14:54:37,407 - INFO - GET http://192.168.210.144:9200/ [status:200 request:0.000s]
+2023-04-04 14:58:35,152 - INFO - ES coonection successful.
+2023-04-04 14:58:35,152 - INFO - <BrokerConnection node_id=bootstrap-1 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 14:58:35,152 - INFO - Probing node bootstrap-1 broker version
+2023-04-04 14:58:35,167 - INFO - <BrokerConnection node_id=bootstrap-1 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 14:58:35,282 - INFO - Broker version identified as 2.5.0
+2023-04-04 14:58:35,282 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-04-04 14:58:35,342 - INFO - PUT http://192.168.210.144:9200/products [status:200 request:0.056s]
+2023-04-04 15:05:57,403 - INFO - ES coonection successful.
+2023-04-04 15:05:57,403 - INFO - <BrokerConnection node_id=bootstrap-1 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 15:05:57,403 - INFO - Probing node bootstrap-1 broker version
+2023-04-04 15:05:57,403 - INFO - <BrokerConnection node_id=bootstrap-1 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 15:05:57,513 - INFO - Broker version identified as 2.5.0
+2023-04-04 15:05:57,513 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-04-04 15:05:57,513 - INFO - HEAD http://192.168.210.144:9200/products [status:200 request:0.000s]
+2023-04-04 15:05:57,513 - INFO - <BrokerConnection node_id=bootstrap-2 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 15:05:57,513 - INFO - Group coordinator for es-sink-app is BrokerMetadata(nodeId='coordinator-0', host='192.168.210.131', port=9092, rack=None)
+2023-04-04 15:05:57,513 - INFO - Discovered coordinator coordinator-0 for group es-sink-app
+2023-04-04 15:05:57,513 - INFO - <BrokerConnection node_id=bootstrap-2 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 15:05:57,513 - INFO - <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 15:05:57,613 - INFO - <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 15:05:57,613 - INFO - <BrokerConnection node_id=bootstrap-1 host=192.168.210.131:9092 <connected> [IPv4 ('192.168.210.131', 9092)]>: Closing connection. 
+2023-04-04 15:05:57,613 - INFO - <BrokerConnection node_id=bootstrap-2 host=192.168.210.76:9092 <connected> [IPv4 ('192.168.210.76', 9092)]>: Closing connection. 
+2023-04-04 15:05:57,822 - INFO - <BrokerConnection node_id=bootstrap-1 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 15:05:57,932 - INFO - <BrokerConnection node_id=bootstrap-1 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 15:05:58,144 - INFO - <BrokerConnection node_id=1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 15:05:58,145 - INFO - <BrokerConnection node_id=1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 15:05:58,145 - INFO - <BrokerConnection node_id=bootstrap-1 host=192.168.210.131:9092 <connected> [IPv4 ('192.168.210.131', 9092)]>: Closing connection. 
+2023-04-04 15:11:21,828 - INFO - ES coonection successful.
+2023-04-04 15:11:21,844 - INFO - <BrokerConnection node_id=bootstrap-1 host=192.168.210.21:9092 <connecting> [IPv4 ('192.168.210.21', 9092)]>: connecting to 192.168.210.21:9092 [('192.168.210.21', 9092) IPv4]
+2023-04-04 15:11:21,844 - INFO - Probing node bootstrap-1 broker version
+2023-04-04 15:11:23,845 - ERROR - Error connecting to Kafka: NoBrokersAvailable
+2023-04-04 15:11:26,846 - INFO - <BrokerConnection node_id=bootstrap-0 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 15:11:26,846 - INFO - Probing node bootstrap-0 broker version
+2023-04-04 15:11:26,846 - INFO - <BrokerConnection node_id=bootstrap-0 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 15:11:26,960 - INFO - Broker version identified as 2.5.0
+2023-04-04 15:11:26,960 - INFO - Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-04-04 15:11:26,965 - INFO - HEAD http://192.168.210.144:9200/products [status:200 request:0.004s]
+2023-04-04 15:11:26,968 - INFO - <BrokerConnection node_id=bootstrap-2 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 15:11:26,969 - INFO - Group coordinator for es-sink-app is BrokerMetadata(nodeId='coordinator-0', host='192.168.210.131', port=9092, rack=None)
+2023-04-04 15:11:26,969 - INFO - Discovered coordinator coordinator-0 for group es-sink-app
+2023-04-04 15:11:26,969 - INFO - <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 15:11:26,970 - INFO - <BrokerConnection node_id=bootstrap-2 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 15:11:27,070 - INFO - <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 15:11:27,070 - INFO - <BrokerConnection node_id=bootstrap-0 host=192.168.210.76:9092 <connected> [IPv4 ('192.168.210.76', 9092)]>: Closing connection. 
+2023-04-04 15:11:27,070 - INFO - <BrokerConnection node_id=bootstrap-2 host=192.168.210.131:9092 <connected> [IPv4 ('192.168.210.131', 9092)]>: Closing connection. 
+2023-04-04 15:11:27,280 - INFO - <BrokerConnection node_id=bootstrap-0 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 15:11:27,390 - INFO - <BrokerConnection node_id=bootstrap-0 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 15:11:27,593 - INFO - <BrokerConnection node_id=1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 15:11:27,593 - INFO - <BrokerConnection node_id=1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 15:11:27,593 - INFO - <BrokerConnection node_id=bootstrap-0 host=192.168.210.76:9092 <connected> [IPv4 ('192.168.210.76', 9092)]>: Closing connection. 
+2023-04-04 15:11:38,779 [INFO] ES coonection successful.
+2023-04-04 15:11:38,779 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.21:9092 <connecting> [IPv4 ('192.168.210.21', 9092)]>: connecting to 192.168.210.21:9092 [('192.168.210.21', 9092) IPv4]
+2023-04-04 15:11:38,779 [INFO] Probing node bootstrap-0 broker version
+2023-04-04 15:11:40,792 [ERROR] Error connecting to Kafka: NoBrokersAvailable
+2023-04-04 15:11:43,804 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 15:11:43,804 [INFO] Probing node bootstrap-2 broker version
+2023-04-04 15:11:43,805 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 15:11:43,911 [INFO] Broker version identified as 2.5.0
+2023-04-04 15:11:43,911 [INFO] Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-04-04 15:11:43,912 [INFO] Kafka connection successful.
+2023-04-04 15:11:43,916 [INFO] HEAD http://192.168.210.144:9200/products [status:200 request:0.003s]
+2023-04-04 15:11:43,916 [INFO] Index 'products' already exists
+2023-04-04 15:11:43,917 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 15:11:43,918 [INFO] Group coordinator for es-sink-app is BrokerMetadata(nodeId='coordinator-0', host='192.168.210.131', port=9092, rack=None)
+2023-04-04 15:11:43,918 [INFO] Discovered coordinator coordinator-0 for group es-sink-app
+2023-04-04 15:11:43,919 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 15:11:43,919 [INFO] <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 15:11:44,020 [INFO] <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 15:11:44,020 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.76:9092 <connected> [IPv4 ('192.168.210.76', 9092)]>: Closing connection. 
+2023-04-04 15:11:44,021 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.131:9092 <connected> [IPv4 ('192.168.210.131', 9092)]>: Closing connection. 
+2023-04-04 15:11:44,223 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 15:11:44,323 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 15:11:44,536 [INFO] <BrokerConnection node_id=1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 15:11:44,536 [INFO] <BrokerConnection node_id=1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 15:11:44,536 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.131:9092 <connected> [IPv4 ('192.168.210.131', 9092)]>: Closing connection. 
+2023-04-04 15:15:20,254 [INFO] ES coonection successful.
+2023-04-04 15:15:20,254 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.21:9092 <connecting> [IPv4 ('192.168.210.21', 9092)]>: connecting to 192.168.210.21:9092 [('192.168.210.21', 9092) IPv4]
+2023-04-04 15:15:20,254 [INFO] Probing node bootstrap-2 broker version
+2023-04-04 15:15:22,256 [ERROR] Error connecting to Kafka: NoBrokersAvailable
+2023-04-04 15:15:25,258 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 15:15:25,258 [INFO] Probing node bootstrap-0 broker version
+2023-04-04 15:15:25,259 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 15:15:25,366 [INFO] Broker version identified as 2.5.0
+2023-04-04 15:15:25,366 [INFO] Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-04-04 15:15:25,368 [INFO] Kafka connection successful.
+2023-04-04 15:15:25,374 [INFO] HEAD http://192.168.210.144:9200/products [status:200 request:0.004s]
+2023-04-04 15:15:25,374 [INFO] Index 'products' already exists
+2023-04-04 15:15:25,375 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.21:9092 <connecting> [IPv4 ('192.168.210.21', 9092)]>: connecting to 192.168.210.21:9092 [('192.168.210.21', 9092) IPv4]
+2023-04-04 15:15:25,376 [INFO] Group coordinator for es-sink-app is BrokerMetadata(nodeId='coordinator-0', host='192.168.210.131', port=9092, rack=None)
+2023-04-04 15:15:25,376 [INFO] Discovered coordinator coordinator-0 for group es-sink-app
+2023-04-04 15:15:25,377 [INFO] <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 15:15:25,479 [INFO] <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 15:15:25,479 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.131:9092 <connected> [IPv4 ('192.168.210.131', 9092)]>: Closing connection. 
+2023-04-04 15:15:25,480 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.21:9092 <connecting> [IPv4 ('192.168.210.21', 9092)]>: Closing connection. 
+2023-04-04 15:15:25,481 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.21:9092 <connecting> [IPv4 ('192.168.210.21', 9092)]>: connecting to 192.168.210.21:9092 [('192.168.210.21', 9092) IPv4]
+2023-04-04 15:17:16,462 [INFO] ES coonection successful.
+2023-04-04 15:17:16,467 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.21:9092 <connecting> [IPv4 ('192.168.210.21', 9092)]>: connecting to 192.168.210.21:9092 [('192.168.210.21', 9092) IPv4]
+2023-04-04 15:17:16,467 [INFO] Probing node bootstrap-1 broker version
+2023-04-04 15:17:18,481 [ERROR] Error connecting to Kafka: NoBrokersAvailable
+2023-04-04 15:17:21,493 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.21:9092 <connecting> [IPv4 ('192.168.210.21', 9092)]>: connecting to 192.168.210.21:9092 [('192.168.210.21', 9092) IPv4]
+2023-04-04 15:17:21,493 [INFO] Probing node bootstrap-0 broker version
+2023-04-04 15:17:23,506 [ERROR] Error connecting to Kafka: NoBrokersAvailable
+2023-04-04 15:17:26,514 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 15:17:26,514 [INFO] Probing node bootstrap-1 broker version
+2023-04-04 15:17:26,514 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 15:17:26,620 [INFO] Broker version identified as 2.5.0
+2023-04-04 15:17:26,621 [INFO] Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-04-04 15:17:26,621 [INFO] Kafka connection successful.
+2023-04-04 15:17:26,625 [INFO] HEAD http://192.168.210.144:9200/products [status:200 request:0.003s]
+2023-04-04 15:17:26,626 [INFO] Index 'products' already exists
+2023-04-04 15:17:26,626 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 15:17:26,628 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 15:17:26,628 [INFO] Group coordinator for es-sink-app is BrokerMetadata(nodeId='coordinator-0', host='192.168.210.131', port=9092, rack=None)
+2023-04-04 15:17:26,629 [INFO] Discovered coordinator coordinator-0 for group es-sink-app
+2023-04-04 15:17:26,629 [INFO] <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 15:17:26,730 [INFO] <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 15:17:26,730 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.131:9092 <connected> [IPv4 ('192.168.210.131', 9092)]>: Closing connection. 
+2023-04-04 15:17:26,731 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.76:9092 <connected> [IPv4 ('192.168.210.76', 9092)]>: Closing connection. 
+2023-04-04 15:17:26,834 [INFO] <BrokerConnection node_id=1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 15:17:26,835 [INFO] <BrokerConnection node_id=1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 15:17:26,837 [INFO] New Document received.
+2023-04-04 15:17:26,842 [INFO] New Document received.
+2023-04-04 15:17:26,844 [INFO] New Document received.
+2023-04-04 15:19:21,612 [INFO] New Document received.
+2023-04-04 15:19:21,612 [INFO] New Document received.
+2023-04-04 15:19:21,628 [INFO] New Document received.
+2023-04-04 15:23:19,705 [INFO] ES coonection successful.
+2023-04-04 15:23:19,708 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.21:9092 <connecting> [IPv4 ('192.168.210.21', 9092)]>: connecting to 192.168.210.21:9092 [('192.168.210.21', 9092) IPv4]
+2023-04-04 15:23:19,709 [INFO] Probing node bootstrap-0 broker version
+2023-04-04 15:23:21,714 [ERROR] Error connecting to Kafka: NoBrokersAvailable
+2023-04-04 15:23:24,716 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.21:9092 <connecting> [IPv4 ('192.168.210.21', 9092)]>: connecting to 192.168.210.21:9092 [('192.168.210.21', 9092) IPv4]
+2023-04-04 15:23:24,716 [INFO] Probing node bootstrap-2 broker version
+2023-04-04 15:23:26,725 [ERROR] Error connecting to Kafka: NoBrokersAvailable
+2023-04-04 15:23:29,737 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.21:9092 <connecting> [IPv4 ('192.168.210.21', 9092)]>: connecting to 192.168.210.21:9092 [('192.168.210.21', 9092) IPv4]
+2023-04-04 15:23:29,737 [INFO] Probing node bootstrap-0 broker version
+2023-04-04 15:23:31,740 [ERROR] Error connecting to Kafka: NoBrokersAvailable
+2023-04-04 15:23:35,192 [INFO] ES coonection successful.
+2023-04-04 15:23:35,208 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 15:23:35,208 [INFO] Probing node bootstrap-0 broker version
+2023-04-04 15:23:35,208 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 15:23:35,313 [INFO] Broker version identified as 2.5.0
+2023-04-04 15:23:35,313 [INFO] Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-04-04 15:23:35,314 [INFO] Kafka connection successful.
+2023-04-04 15:23:35,319 [INFO] HEAD http://192.168.210.144:9200/products [status:200 request:0.004s]
+2023-04-04 15:23:35,325 [INFO] Index 'products' already exists
+2023-04-04 15:23:35,326 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 15:23:35,327 [INFO] Group coordinator for es-sink-app is BrokerMetadata(nodeId='coordinator-0', host='192.168.210.131', port=9092, rack=None)
+2023-04-04 15:23:35,327 [INFO] Discovered coordinator coordinator-0 for group es-sink-app
+2023-04-04 15:23:35,328 [INFO] <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 15:23:35,328 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 15:23:35,429 [INFO] <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 15:23:35,429 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.76:9092 <connected> [IPv4 ('192.168.210.76', 9092)]>: Closing connection. 
+2023-04-04 15:23:35,430 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.131:9092 <connected> [IPv4 ('192.168.210.131', 9092)]>: Closing connection. 
+2023-04-04 15:23:35,635 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 15:23:35,736 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 15:23:35,942 [INFO] <BrokerConnection node_id=1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 15:23:35,942 [INFO] <BrokerConnection node_id=1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 15:23:35,942 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.76:9092 <connected> [IPv4 ('192.168.210.76', 9092)]>: Closing connection. 
+2023-04-04 15:23:35,942 [INFO] New Document received.
+2023-04-04 15:24:08,987 [INFO] ES coonection successful.
+2023-04-04 15:24:08,991 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.21:9092 <connecting> [IPv4 ('192.168.210.21', 9092)]>: connecting to 192.168.210.21:9092 [('192.168.210.21', 9092) IPv4]
+2023-04-04 15:24:08,992 [INFO] Probing node bootstrap-2 broker version
+2023-04-04 15:24:11,014 [ERROR] Error connecting to Kafka: NoBrokersAvailable
+2023-04-04 15:24:14,027 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 15:24:14,027 [INFO] Probing node bootstrap-0 broker version
+2023-04-04 15:24:14,027 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 15:24:14,132 [INFO] Broker version identified as 2.5.0
+2023-04-04 15:24:14,132 [INFO] Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-04-04 15:24:14,133 [INFO] Kafka connection successful.
+2023-04-04 15:24:14,137 [INFO] HEAD http://192.168.210.144:9200/products [status:200 request:0.003s]
+2023-04-04 15:24:14,137 [INFO] Index 'products' already exists
+2023-04-04 15:24:14,138 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.21:9092 <connecting> [IPv4 ('192.168.210.21', 9092)]>: connecting to 192.168.210.21:9092 [('192.168.210.21', 9092) IPv4]
+2023-04-04 15:24:14,139 [INFO] Group coordinator for es-sink-app is BrokerMetadata(nodeId='coordinator-0', host='192.168.210.131', port=9092, rack=None)
+2023-04-04 15:24:14,139 [INFO] Discovered coordinator coordinator-0 for group es-sink-app
+2023-04-04 15:24:14,140 [INFO] <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 15:24:14,242 [INFO] <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 15:24:14,242 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.131:9092 <connected> [IPv4 ('192.168.210.131', 9092)]>: Closing connection. 
+2023-04-04 15:24:14,242 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.21:9092 <connecting> [IPv4 ('192.168.210.21', 9092)]>: Closing connection. 
+2023-04-04 15:24:14,444 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.21:9092 <connecting> [IPv4 ('192.168.210.21', 9092)]>: connecting to 192.168.210.21:9092 [('192.168.210.21', 9092) IPv4]
+2023-04-04 15:25:15,463 [INFO] ES coonection successful.
+2023-04-04 15:25:15,463 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.21:9092 <connecting> [IPv4 ('192.168.210.21', 9092)]>: connecting to 192.168.210.21:9092 [('192.168.210.21', 9092) IPv4]
+2023-04-04 15:25:15,463 [INFO] Probing node bootstrap-1 broker version
+2023-04-04 15:25:17,492 [ERROR] Error connecting to Kafka: NoBrokersAvailable
+2023-04-04 15:25:20,503 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 15:25:20,503 [INFO] Probing node bootstrap-2 broker version
+2023-04-04 15:25:20,503 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 15:25:20,609 [INFO] Broker version identified as 2.5.0
+2023-04-04 15:25:20,609 [INFO] Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-04-04 15:25:20,610 [INFO] Kafka connection successful.
+2023-04-04 15:25:20,668 [INFO] PUT http://192.168.210.144:9200/products [status:200 request:0.055s]
+2023-04-04 15:25:20,669 [INFO] Index 'products' created successfully with schema:
+{'mappings': {'properties': {'brand': {'type': 'text'}, 'price': {'type': 'float'}, 'product': {'type': 'text'}, 'category': {'type': 'text'}, 'quantity': {'type': 'text'}, 'product_id': {'type': 'integer'}, 'sub_category': {'type': 'text'}}}}
+2023-04-04 15:25:20,670 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.21:9092 <connecting> [IPv4 ('192.168.210.21', 9092)]>: connecting to 192.168.210.21:9092 [('192.168.210.21', 9092) IPv4]
+2023-04-04 15:25:20,671 [INFO] Group coordinator for es-sink-app is BrokerMetadata(nodeId='coordinator-0', host='192.168.210.131', port=9092, rack=None)
+2023-04-04 15:25:20,671 [INFO] Discovered coordinator coordinator-0 for group es-sink-app
+2023-04-04 15:25:20,672 [INFO] <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 15:25:20,773 [INFO] <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 15:25:20,773 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.76:9092 <connected> [IPv4 ('192.168.210.76', 9092)]>: Closing connection. 
+2023-04-04 15:25:20,774 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.21:9092 <connecting> [IPv4 ('192.168.210.21', 9092)]>: Closing connection. 
+2023-04-04 15:25:20,980 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 15:25:21,080 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 15:25:21,287 [INFO] <BrokerConnection node_id=1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 15:25:21,287 [INFO] <BrokerConnection node_id=1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 15:25:21,287 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.76:9092 <connected> [IPv4 ('192.168.210.76', 9092)]>: Closing connection. 
+2023-04-04 15:25:21,287 [INFO] New Document received.
+2023-04-04 15:25:21,287 [INFO] New Document received.
+2023-04-04 15:25:21,287 [INFO] New Document received.
+2023-04-04 15:25:21,305 [INFO] New Document received.
+2023-04-04 15:30:03,422 [INFO] ES coonection successful.
+2023-04-04 15:30:03,422 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 15:30:03,422 [INFO] Probing node bootstrap-0 broker version
+2023-04-04 15:30:03,422 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 15:30:03,527 [INFO] Broker version identified as 2.5.0
+2023-04-04 15:30:03,527 [INFO] Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-04-04 15:30:03,534 [INFO] Kafka connection successful.
+2023-04-04 15:30:03,579 [INFO] PUT http://192.168.210.144:9200/products [status:200 request:0.040s]
+2023-04-04 15:30:03,580 [INFO] Index 'products' created successfully with schema:
+{'mappings': {'properties': {'brand': {'type': 'text'}, 'price': {'type': 'float'}, 'product': {'type': 'text'}, 'category': {'type': 'text'}, 'quantity': {'type': 'text'}, 'product_id': {'type': 'integer'}, 'sub_category': {'type': 'text'}, 'timestamp': {'type': 'date'}}}}
+2023-04-04 15:30:03,581 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 15:30:03,582 [INFO] Group coordinator for es-sink-app is BrokerMetadata(nodeId='coordinator-0', host='192.168.210.131', port=9092, rack=None)
+2023-04-04 15:30:03,582 [INFO] Discovered coordinator coordinator-0 for group es-sink-app
+2023-04-04 15:30:03,583 [INFO] <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 15:30:03,583 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 15:30:03,684 [INFO] <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 15:30:03,684 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.131:9092 <connected> [IPv4 ('192.168.210.131', 9092)]>: Closing connection. 
+2023-04-04 15:30:03,684 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.76:9092 <connected> [IPv4 ('192.168.210.76', 9092)]>: Closing connection. 
+2023-04-04 15:30:03,895 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 15:30:03,996 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 15:30:04,206 [INFO] <BrokerConnection node_id=1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 15:30:04,207 [INFO] <BrokerConnection node_id=1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 15:30:04,208 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.76:9092 <connected> [IPv4 ('192.168.210.76', 9092)]>: Closing connection. 
+2023-04-04 15:30:04,210 [INFO] New Document received.
+2023-04-04 15:30:40,507 [INFO] ES coonection successful.
+2023-04-04 15:30:40,512 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.21:9092 <connecting> [IPv4 ('192.168.210.21', 9092)]>: connecting to 192.168.210.21:9092 [('192.168.210.21', 9092) IPv4]
+2023-04-04 15:30:40,512 [INFO] Probing node bootstrap-1 broker version
+2023-04-04 15:30:42,524 [ERROR] Error connecting to Kafka: NoBrokersAvailable
+2023-04-04 15:30:45,529 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 15:30:45,529 [INFO] Probing node bootstrap-2 broker version
+2023-04-04 15:30:45,529 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 15:30:45,634 [INFO] Broker version identified as 2.5.0
+2023-04-04 15:30:45,634 [INFO] Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-04-04 15:30:45,635 [INFO] Kafka connection successful.
+2023-04-04 15:30:45,639 [INFO] HEAD http://192.168.210.144:9200/products [status:200 request:0.003s]
+2023-04-04 15:30:45,640 [INFO] Index 'products' already exists
+2023-04-04 15:30:45,640 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.21:9092 <connecting> [IPv4 ('192.168.210.21', 9092)]>: connecting to 192.168.210.21:9092 [('192.168.210.21', 9092) IPv4]
+2023-04-04 15:30:45,641 [INFO] Group coordinator for es-sink-app is BrokerMetadata(nodeId='coordinator-0', host='192.168.210.131', port=9092, rack=None)
+2023-04-04 15:30:45,642 [INFO] Discovered coordinator coordinator-0 for group es-sink-app
+2023-04-04 15:30:45,642 [INFO] <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 15:30:45,744 [INFO] <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 15:30:45,744 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.131:9092 <connected> [IPv4 ('192.168.210.131', 9092)]>: Closing connection. 
+2023-04-04 15:30:45,745 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.21:9092 <connecting> [IPv4 ('192.168.210.21', 9092)]>: Closing connection. 
+2023-04-04 15:30:45,961 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 15:30:46,062 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 15:30:46,265 [INFO] <BrokerConnection node_id=1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 15:30:46,266 [INFO] <BrokerConnection node_id=1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 15:30:46,267 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.131:9092 <connected> [IPv4 ('192.168.210.131', 9092)]>: Closing connection. 
+2023-04-04 15:30:46,269 [INFO] New Document received.
+2023-04-04 15:30:52,378 [INFO] ES coonection successful.
+2023-04-04 15:30:52,383 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 15:30:52,383 [INFO] Probing node bootstrap-2 broker version
+2023-04-04 15:30:52,385 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 15:30:52,491 [INFO] Broker version identified as 2.5.0
+2023-04-04 15:30:52,491 [INFO] Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-04-04 15:30:52,492 [INFO] Kafka connection successful.
+2023-04-04 15:30:52,496 [INFO] HEAD http://192.168.210.144:9200/products [status:200 request:0.004s]
+2023-04-04 15:30:52,496 [INFO] Index 'products' already exists
+2023-04-04 15:30:52,497 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 15:30:52,497 [INFO] Group coordinator for es-sink-app is BrokerMetadata(nodeId='coordinator-0', host='192.168.210.131', port=9092, rack=None)
+2023-04-04 15:30:52,497 [INFO] Discovered coordinator coordinator-0 for group es-sink-app
+2023-04-04 15:30:52,509 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 15:30:52,509 [INFO] <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 15:30:52,611 [INFO] <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 15:30:52,611 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.131:9092 <connected> [IPv4 ('192.168.210.131', 9092)]>: Closing connection. 
+2023-04-04 15:30:52,611 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.76:9092 <connected> [IPv4 ('192.168.210.76', 9092)]>: Closing connection. 
+2023-04-04 15:30:52,813 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 15:30:52,913 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 15:30:53,121 [INFO] <BrokerConnection node_id=1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 15:30:53,121 [INFO] <BrokerConnection node_id=1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 15:30:53,121 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.76:9092 <connected> [IPv4 ('192.168.210.76', 9092)]>: Closing connection. 
+2023-04-04 15:30:53,121 [INFO] New Document received.
+2023-04-04 15:32:37,109 [INFO] ES coonection successful.
+2023-04-04 15:32:37,109 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 15:32:37,109 [INFO] Probing node bootstrap-2 broker version
+2023-04-04 15:32:37,109 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 15:32:37,214 [INFO] Broker version identified as 2.5.0
+2023-04-04 15:32:37,214 [INFO] Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-04-04 15:32:37,215 [INFO] Kafka connection successful.
+2023-04-04 15:32:37,219 [INFO] HEAD http://192.168.210.144:9200/products [status:200 request:0.003s]
+2023-04-04 15:32:37,219 [INFO] Index 'products' already exists
+2023-04-04 15:32:37,220 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 15:32:37,221 [INFO] Group coordinator for es-sink-app is BrokerMetadata(nodeId='coordinator-0', host='192.168.210.131', port=9092, rack=None)
+2023-04-04 15:32:37,221 [INFO] Discovered coordinator coordinator-0 for group es-sink-app
+2023-04-04 15:32:37,222 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 15:32:37,222 [INFO] <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 15:32:37,323 [INFO] <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 15:32:37,323 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.76:9092 <connected> [IPv4 ('192.168.210.76', 9092)]>: Closing connection. 
+2023-04-04 15:32:37,324 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.131:9092 <connected> [IPv4 ('192.168.210.131', 9092)]>: Closing connection. 
+2023-04-04 15:32:37,534 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 15:32:37,635 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 15:32:37,843 [INFO] <BrokerConnection node_id=1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 15:32:37,843 [INFO] <BrokerConnection node_id=1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 15:32:37,843 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.131:9092 <connected> [IPv4 ('192.168.210.131', 9092)]>: Closing connection. 
+2023-04-04 15:32:37,843 [INFO] New Document received.
+2023-04-04 15:33:47,662 [INFO] ES coonection successful.
+2023-04-04 15:33:47,662 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 15:33:47,662 [INFO] Probing node bootstrap-1 broker version
+2023-04-04 15:33:47,662 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 15:33:47,767 [INFO] Broker version identified as 2.5.0
+2023-04-04 15:33:47,767 [INFO] Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-04-04 15:33:47,768 [INFO] Kafka connection successful.
+2023-04-04 15:33:47,772 [INFO] HEAD http://192.168.210.144:9200/products [status:200 request:0.003s]
+2023-04-04 15:33:47,772 [INFO] Index 'products' already exists
+2023-04-04 15:33:47,773 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.21:9092 <connecting> [IPv4 ('192.168.210.21', 9092)]>: connecting to 192.168.210.21:9092 [('192.168.210.21', 9092) IPv4]
+2023-04-04 15:33:47,774 [INFO] Group coordinator for es-sink-app is BrokerMetadata(nodeId='coordinator-0', host='192.168.210.131', port=9092, rack=None)
+2023-04-04 15:33:47,774 [INFO] Discovered coordinator coordinator-0 for group es-sink-app
+2023-04-04 15:33:47,775 [INFO] <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 15:33:47,876 [INFO] <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 15:33:47,876 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.131:9092 <connected> [IPv4 ('192.168.210.131', 9092)]>: Closing connection. 
+2023-04-04 15:33:47,877 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.21:9092 <connecting> [IPv4 ('192.168.210.21', 9092)]>: Closing connection. 
+2023-04-04 15:33:48,089 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 15:33:48,189 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 15:33:48,396 [INFO] <BrokerConnection node_id=1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 15:33:48,396 [INFO] <BrokerConnection node_id=1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 15:33:48,396 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.76:9092 <connected> [IPv4 ('192.168.210.76', 9092)]>: Closing connection. 
+2023-04-04 15:33:48,396 [INFO] New Document received.
+2023-04-04 15:33:48,396 [WARNING] PUT http://192.168.210.144:9200/products/_doc/62 [status:400 request:0.000s]
+2023-04-04 15:35:26,965 [INFO] ES coonection successful.
+2023-04-04 15:35:26,982 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 15:35:26,982 [INFO] Probing node bootstrap-2 broker version
+2023-04-04 15:35:26,984 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 15:35:27,089 [INFO] Broker version identified as 2.5.0
+2023-04-04 15:35:27,090 [INFO] Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-04-04 15:35:27,091 [INFO] Kafka connection successful.
+2023-04-04 15:35:27,094 [INFO] HEAD http://192.168.210.144:9200/products [status:200 request:0.003s]
+2023-04-04 15:35:27,095 [INFO] Index 'products' already exists
+2023-04-04 15:35:27,095 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.21:9092 <connecting> [IPv4 ('192.168.210.21', 9092)]>: connecting to 192.168.210.21:9092 [('192.168.210.21', 9092) IPv4]
+2023-04-04 15:35:27,096 [INFO] Group coordinator for es-sink-app is BrokerMetadata(nodeId='coordinator-0', host='192.168.210.131', port=9092, rack=None)
+2023-04-04 15:35:27,097 [INFO] Discovered coordinator coordinator-0 for group es-sink-app
+2023-04-04 15:35:27,097 [INFO] <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 15:35:27,199 [INFO] <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 15:35:27,199 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.131:9092 <connected> [IPv4 ('192.168.210.131', 9092)]>: Closing connection. 
+2023-04-04 15:35:27,200 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.21:9092 <connecting> [IPv4 ('192.168.210.21', 9092)]>: Closing connection. 
+2023-04-04 15:35:27,411 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 15:35:27,511 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 15:35:27,719 [INFO] <BrokerConnection node_id=1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 15:35:27,719 [INFO] <BrokerConnection node_id=1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 15:35:27,719 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.131:9092 <connected> [IPv4 ('192.168.210.131', 9092)]>: Closing connection. 
+2023-04-04 15:35:27,719 [INFO] New Document received.
+2023-04-04 15:50:05,598 [INFO] ES coonection successful.
+2023-04-04 15:50:05,598 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 15:50:05,598 [INFO] Probing node bootstrap-2 broker version
+2023-04-04 15:50:05,598 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 15:50:05,704 [INFO] Broker version identified as 2.5.0
+2023-04-04 15:50:05,704 [INFO] Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-04-04 15:50:05,705 [INFO] Kafka connection successful.
+2023-04-04 15:50:05,708 [INFO] HEAD http://192.168.210.144:9200/products [status:200 request:0.004s]
+2023-04-04 15:50:05,708 [INFO] Index 'products' already exists
+2023-04-04 15:50:05,709 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 15:50:05,710 [INFO] Group coordinator for es-sink-app is BrokerMetadata(nodeId='coordinator-0', host='192.168.210.131', port=9092, rack=None)
+2023-04-04 15:50:05,710 [INFO] Discovered coordinator coordinator-0 for group es-sink-app
+2023-04-04 15:50:05,710 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 15:50:05,711 [INFO] <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 15:50:05,813 [INFO] <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 15:50:05,813 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.76:9092 <connected> [IPv4 ('192.168.210.76', 9092)]>: Closing connection. 
+2023-04-04 15:50:05,814 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.131:9092 <connected> [IPv4 ('192.168.210.131', 9092)]>: Closing connection. 
+2023-04-04 15:50:06,027 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 15:50:06,127 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 15:50:06,334 [INFO] <BrokerConnection node_id=1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 15:50:06,334 [INFO] <BrokerConnection node_id=1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 15:50:06,334 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.76:9092 <connected> [IPv4 ('192.168.210.76', 9092)]>: Closing connection. 
+2023-04-04 15:50:06,334 [INFO] New Document received.
+2023-04-04 15:50:06,334 [INFO] PUT http://192.168.210.144:9200/products/_doc/62 [status:201 request:0.000s]
+2023-04-04 15:50:06,334 [INFO] Document inserted successfully
+2023-04-04 15:50:06,350 [INFO] New Document received.
+2023-04-04 15:50:06,350 [INFO] PUT http://192.168.210.144:9200/products/_doc/63 [status:201 request:0.000s]
+2023-04-04 15:50:06,350 [INFO] Document inserted successfully
+2023-04-04 15:50:06,350 [INFO] New Document received.
+2023-04-04 15:50:06,350 [INFO] PUT http://192.168.210.144:9200/products/_doc/64 [status:201 request:0.000s]
+2023-04-04 15:50:06,350 [INFO] Document inserted successfully
+2023-04-04 15:50:06,350 [INFO] New Document received.
+2023-04-04 15:50:06,366 [INFO] New Document received.
+2023-04-04 15:50:06,368 [INFO] New Document received.
+2023-04-04 15:50:43,861 [INFO] ES coonection successful.
+2023-04-04 15:50:43,865 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 15:50:43,865 [INFO] Probing node bootstrap-0 broker version
+2023-04-04 15:50:43,866 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 15:50:43,972 [INFO] Broker version identified as 2.5.0
+2023-04-04 15:50:43,972 [INFO] Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-04-04 15:50:43,973 [INFO] Kafka connection successful.
+2023-04-04 15:50:44,017 [INFO] PUT http://192.168.210.144:9200/products [status:200 request:0.040s]
+2023-04-04 15:50:44,018 [INFO] Index 'products' created successfully with schema:
+{'mappings': {'properties': {'brand': {'type': 'text'}, 'price': {'type': 'float'}, 'product': {'type': 'text'}, 'category': {'type': 'text'}, 'quantity': {'type': 'text'}, 'product_id': {'type': 'integer'}, 'sub_category': {'type': 'text'}, 'timestamp': {'type': 'date'}}}}
+2023-04-04 15:50:44,019 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 15:50:44,020 [INFO] Group coordinator for es-sink-app is BrokerMetadata(nodeId='coordinator-0', host='192.168.210.131', port=9092, rack=None)
+2023-04-04 15:50:44,020 [INFO] Discovered coordinator coordinator-0 for group es-sink-app
+2023-04-04 15:50:44,021 [INFO] <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 15:50:44,021 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 15:50:44,121 [INFO] <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 15:50:44,121 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.131:9092 <connected> [IPv4 ('192.168.210.131', 9092)]>: Closing connection. 
+2023-04-04 15:50:44,122 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.76:9092 <connected> [IPv4 ('192.168.210.76', 9092)]>: Closing connection. 
+2023-04-04 15:50:44,334 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 15:50:44,435 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 15:50:44,643 [INFO] <BrokerConnection node_id=1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 15:50:44,643 [INFO] <BrokerConnection node_id=1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 15:50:44,643 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.131:9092 <connected> [IPv4 ('192.168.210.131', 9092)]>: Closing connection. 
+2023-04-04 15:51:01,761 [INFO] ES coonection successful.
+2023-04-04 15:51:01,761 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 15:51:01,761 [INFO] Probing node bootstrap-1 broker version
+2023-04-04 15:51:01,761 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 15:51:01,866 [INFO] Broker version identified as 2.5.0
+2023-04-04 15:51:01,866 [INFO] Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-04-04 15:51:01,867 [INFO] Kafka connection successful.
+2023-04-04 15:51:01,871 [INFO] HEAD http://192.168.210.144:9200/products [status:200 request:0.003s]
+2023-04-04 15:51:01,871 [INFO] Index 'products' already exists
+2023-04-04 15:51:01,872 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 15:51:01,873 [INFO] Group coordinator for es-sink-app is BrokerMetadata(nodeId='coordinator-0', host='192.168.210.131', port=9092, rack=None)
+2023-04-04 15:51:01,873 [INFO] Discovered coordinator coordinator-0 for group es-sink-app
+2023-04-04 15:51:01,874 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 15:51:01,874 [INFO] <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 15:51:01,976 [INFO] <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 15:51:01,976 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.131:9092 <connected> [IPv4 ('192.168.210.131', 9092)]>: Closing connection. 
+2023-04-04 15:51:01,977 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.76:9092 <connected> [IPv4 ('192.168.210.76', 9092)]>: Closing connection. 
+2023-04-04 15:51:02,192 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 15:51:02,292 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 15:51:02,500 [INFO] <BrokerConnection node_id=1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 15:51:02,500 [INFO] <BrokerConnection node_id=1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 15:51:02,500 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.131:9092 <connected> [IPv4 ('192.168.210.131', 9092)]>: Closing connection. 
+2023-04-04 15:51:09,941 [INFO] New Document received.
+2023-04-04 15:51:09,946 [INFO] PUT http://192.168.210.144:9200/products/_doc/65 [status:201 request:0.004s]
+2023-04-04 15:51:09,947 [INFO] Document inserted successfully
+2023-04-04 15:51:09,953 [INFO] New Document received.
+2023-04-04 15:51:09,956 [INFO] PUT http://192.168.210.144:9200/products/_doc/66 [status:201 request:0.002s]
+2023-04-04 15:51:09,957 [INFO] Document inserted successfully
+2023-04-04 15:51:09,959 [INFO] New Document received.
+2023-04-04 15:51:09,963 [INFO] PUT http://192.168.210.144:9200/products/_doc/67 [status:201 request:0.003s]
+2023-04-04 15:51:09,963 [INFO] Document inserted successfully
+2023-04-04 15:56:02,453 [INFO] <BrokerConnection node_id=2 host=192.168.210.214:9092 <connecting> [IPv4 ('192.168.210.214', 9092)]>: connecting to 192.168.210.214:9092 [('192.168.210.214', 9092) IPv4]
+2023-04-04 15:56:02,455 [INFO] <BrokerConnection node_id=2 host=192.168.210.214:9092 <connecting> [IPv4 ('192.168.210.214', 9092)]>: Connection complete.
+2023-04-04 15:56:25,223 [INFO] New Document received.
+2023-04-04 15:56:25,231 [INFO] New Document received.
+2023-04-04 15:56:25,236 [INFO] New Document received.
+2023-04-04 15:56:30,251 [INFO] New Document received.
+2023-04-04 15:56:30,259 [INFO] PUT http://192.168.210.144:9200/products/_doc/68 [status:201 request:0.004s]
+2023-04-04 15:56:30,259 [INFO] Document inserted successfully
+2023-04-04 15:56:30,264 [INFO] New Document received.
+2023-04-04 15:56:30,268 [INFO] PUT http://192.168.210.144:9200/products/_doc/69 [status:201 request:0.003s]
+2023-04-04 15:56:30,269 [INFO] Document inserted successfully
+2023-04-04 15:56:30,271 [INFO] New Document received.
+2023-04-04 15:56:30,275 [INFO] PUT http://192.168.210.144:9200/products/_doc/70 [status:201 request:0.003s]
+2023-04-04 15:56:30,275 [INFO] Document inserted successfully
+2023-04-04 16:02:25,689 [INFO] ES coonection successful.
+2023-04-04 16:02:25,694 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.21:9092 <connecting> [IPv4 ('192.168.210.21', 9092)]>: connecting to 192.168.210.21:9092 [('192.168.210.21', 9092) IPv4]
+2023-04-04 16:02:25,694 [INFO] Probing node bootstrap-0 broker version
+2023-04-04 16:02:27,709 [ERROR] Error connecting to Kafka: NoBrokersAvailable
+2023-04-04 16:02:30,711 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 16:02:30,711 [INFO] Probing node bootstrap-1 broker version
+2023-04-04 16:02:30,712 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 16:02:30,848 [INFO] Broker version identified as 2.5.0
+2023-04-04 16:02:30,848 [INFO] Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-04-04 16:02:30,849 [INFO] Kafka connection successful.
+2023-04-04 16:02:30,891 [INFO] PUT http://192.168.210.144:9200/products [status:200 request:0.038s]
+2023-04-04 16:02:30,891 [INFO] Index 'products' created successfully with schema:
+{'mappings': {'properties': {'brand': {'type': 'text'}, 'price': {'type': 'float'}, 'product': {'type': 'text'}, 'category': {'type': 'text'}, 'quantity': {'type': 'text'}, 'product_id': {'type': 'integer'}, 'sub_category': {'type': 'text'}, 'timestamp': {'type': 'date'}}}}
+2023-04-04 16:02:30,892 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 16:02:30,893 [INFO] Group coordinator for es-sink-app is BrokerMetadata(nodeId='coordinator-0', host='192.168.210.131', port=9092, rack=None)
+2023-04-04 16:02:30,893 [INFO] Discovered coordinator coordinator-0 for group es-sink-app
+2023-04-04 16:02:30,893 [INFO] <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 16:02:30,894 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 16:02:30,995 [INFO] <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 16:02:30,995 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.76:9092 <connected> [IPv4 ('192.168.210.76', 9092)]>: Closing connection. 
+2023-04-04 16:02:30,996 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.131:9092 <connected> [IPv4 ('192.168.210.131', 9092)]>: Closing connection. 
+2023-04-04 16:02:31,208 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 16:02:31,308 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 16:02:31,517 [INFO] <BrokerConnection node_id=1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 16:02:31,517 [INFO] <BrokerConnection node_id=1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 16:02:31,517 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.76:9092 <connected> [IPv4 ('192.168.210.76', 9092)]>: Closing connection. 
+2023-04-04 16:02:40,599 [INFO] New Document received.
+2023-04-04 16:02:40,604 [INFO] New Document received.
+2023-04-04 16:02:40,607 [INFO] New Document received.
+2023-04-04 16:02:45,614 [INFO] New Document received.
+2023-04-04 16:02:45,626 [INFO] PUT http://192.168.210.144:9200/products/_doc/71 [status:201 request:0.004s]
+2023-04-04 16:02:45,633 [INFO] Document inserted successfully
+2023-04-04 16:02:45,637 [INFO] New Document received.
+2023-04-04 16:02:45,641 [INFO] PUT http://192.168.210.144:9200/products/_doc/72 [status:201 request:0.004s]
+2023-04-04 16:02:45,641 [INFO] Document inserted successfully
+2023-04-04 16:02:45,644 [INFO] New Document received.
+2023-04-04 16:02:45,646 [INFO] PUT http://192.168.210.144:9200/products/_doc/73 [status:201 request:0.002s]
+2023-04-04 16:02:45,647 [INFO] Document inserted successfully
+2023-04-04 16:10:00,842 [INFO] ES coonection successful.
+2023-04-04 16:10:00,842 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 16:10:00,842 [INFO] Probing node bootstrap-0 broker version
+2023-04-04 16:10:00,842 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 16:10:00,949 [INFO] Broker version identified as 2.5.0
+2023-04-04 16:10:00,949 [INFO] Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-04-04 16:10:00,950 [INFO] Kafka connection successful.
+2023-04-04 16:10:00,953 [INFO] HEAD http://192.168.210.144:9200/products [status:200 request:0.003s]
+2023-04-04 16:10:00,953 [INFO] Index 'products' already exists
+2023-04-04 16:10:00,954 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 16:10:00,955 [INFO] Group coordinator for es-sink-app is BrokerMetadata(nodeId='coordinator-0', host='192.168.210.131', port=9092, rack=None)
+2023-04-04 16:10:00,955 [INFO] Discovered coordinator coordinator-0 for group es-sink-app
+2023-04-04 16:10:00,956 [INFO] <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 16:10:00,956 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 16:10:01,058 [INFO] <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 16:10:01,058 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.76:9092 <connected> [IPv4 ('192.168.210.76', 9092)]>: Closing connection. 
+2023-04-04 16:10:01,059 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.131:9092 <connected> [IPv4 ('192.168.210.131', 9092)]>: Closing connection. 
+2023-04-04 16:10:01,260 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 16:10:01,361 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 16:10:01,576 [INFO] <BrokerConnection node_id=1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 16:10:01,576 [INFO] <BrokerConnection node_id=1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 16:10:01,576 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.131:9092 <connected> [IPv4 ('192.168.210.131', 9092)]>: Closing connection. 
+2023-04-04 16:11:11,207 [INFO] New Doc : update
+2023-04-04 16:12:02,051 [INFO] ES coonection successful.
+2023-04-04 16:12:02,056 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 16:12:02,056 [INFO] Probing node bootstrap-0 broker version
+2023-04-04 16:12:02,057 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 16:12:02,162 [INFO] Broker version identified as 2.5.0
+2023-04-04 16:12:02,162 [INFO] Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-04-04 16:12:02,163 [INFO] Kafka connection successful.
+2023-04-04 16:12:02,167 [INFO] HEAD http://192.168.210.144:9200/products [status:200 request:0.003s]
+2023-04-04 16:12:02,167 [INFO] Index 'products' already exists
+2023-04-04 16:12:02,168 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.21:9092 <connecting> [IPv4 ('192.168.210.21', 9092)]>: connecting to 192.168.210.21:9092 [('192.168.210.21', 9092) IPv4]
+2023-04-04 16:12:02,169 [INFO] Group coordinator for es-sink-app is BrokerMetadata(nodeId='coordinator-0', host='192.168.210.131', port=9092, rack=None)
+2023-04-04 16:12:02,169 [INFO] Discovered coordinator coordinator-0 for group es-sink-app
+2023-04-04 16:12:02,170 [INFO] <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 16:12:02,271 [INFO] <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 16:12:02,271 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.76:9092 <connected> [IPv4 ('192.168.210.76', 9092)]>: Closing connection. 
+2023-04-04 16:12:02,271 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.21:9092 <connecting> [IPv4 ('192.168.210.21', 9092)]>: Closing connection. 
+2023-04-04 16:12:02,271 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.21:9092 <connecting> [IPv4 ('192.168.210.21', 9092)]>: connecting to 192.168.210.21:9092 [('192.168.210.21', 9092) IPv4]
+2023-04-04 16:12:35,933 [INFO] ES coonection successful.
+2023-04-04 16:12:35,933 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.21:9092 <connecting> [IPv4 ('192.168.210.21', 9092)]>: connecting to 192.168.210.21:9092 [('192.168.210.21', 9092) IPv4]
+2023-04-04 16:12:35,933 [INFO] Probing node bootstrap-0 broker version
+2023-04-04 16:12:37,961 [ERROR] Error connecting to Kafka: NoBrokersAvailable
+2023-04-04 16:12:40,973 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.21:9092 <connecting> [IPv4 ('192.168.210.21', 9092)]>: connecting to 192.168.210.21:9092 [('192.168.210.21', 9092) IPv4]
+2023-04-04 16:12:40,973 [INFO] Probing node bootstrap-2 broker version
+2023-04-04 16:12:42,975 [ERROR] Error connecting to Kafka: NoBrokersAvailable
+2023-04-04 16:12:45,988 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 16:12:45,988 [INFO] Probing node bootstrap-2 broker version
+2023-04-04 16:12:45,988 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 16:12:46,094 [INFO] Broker version identified as 2.5.0
+2023-04-04 16:12:46,094 [INFO] Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-04-04 16:12:46,095 [INFO] Kafka connection successful.
+2023-04-04 16:12:46,099 [INFO] HEAD http://192.168.210.144:9200/products [status:200 request:0.004s]
+2023-04-04 16:12:46,099 [INFO] Index 'products' already exists
+2023-04-04 16:12:46,099 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.21:9092 <connecting> [IPv4 ('192.168.210.21', 9092)]>: connecting to 192.168.210.21:9092 [('192.168.210.21', 9092) IPv4]
+2023-04-04 16:12:46,100 [INFO] Group coordinator for es-sink-app is BrokerMetadata(nodeId='coordinator-0', host='192.168.210.131', port=9092, rack=None)
+2023-04-04 16:12:46,100 [INFO] Discovered coordinator coordinator-0 for group es-sink-app
+2023-04-04 16:12:46,101 [INFO] <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 16:12:46,202 [INFO] <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 16:12:46,202 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.76:9092 <connected> [IPv4 ('192.168.210.76', 9092)]>: Closing connection. 
+2023-04-04 16:12:46,203 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.21:9092 <connecting> [IPv4 ('192.168.210.21', 9092)]>: Closing connection. 
+2023-04-04 16:12:46,404 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 16:12:46,505 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 16:12:46,708 [INFO] <BrokerConnection node_id=1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 16:12:46,709 [INFO] <BrokerConnection node_id=1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 16:12:46,710 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.76:9092 <connected> [IPv4 ('192.168.210.76', 9092)]>: Closing connection. 
+2023-04-04 16:12:46,712 [INFO] New Doc : update
+2023-04-04 16:12:46,728 [WARNING] POST http://192.168.210.144:9200/products/_update/71 [status:400 request:0.017s]
+2023-04-04 16:13:36,287 [INFO] ES coonection successful.
+2023-04-04 16:13:36,287 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 16:13:36,287 [INFO] Probing node bootstrap-2 broker version
+2023-04-04 16:13:36,287 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 16:13:36,392 [INFO] Broker version identified as 2.5.0
+2023-04-04 16:13:36,392 [INFO] Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-04-04 16:13:36,393 [INFO] Kafka connection successful.
+2023-04-04 16:13:36,397 [INFO] HEAD http://192.168.210.144:9200/products [status:200 request:0.004s]
+2023-04-04 16:13:36,397 [INFO] Index 'products' already exists
+2023-04-04 16:13:36,398 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 16:13:36,399 [INFO] Group coordinator for es-sink-app is BrokerMetadata(nodeId='coordinator-0', host='192.168.210.131', port=9092, rack=None)
+2023-04-04 16:13:36,399 [INFO] Discovered coordinator coordinator-0 for group es-sink-app
+2023-04-04 16:13:36,400 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 16:13:36,400 [INFO] <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 16:13:36,502 [INFO] <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 16:13:36,502 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.76:9092 <connected> [IPv4 ('192.168.210.76', 9092)]>: Closing connection. 
+2023-04-04 16:13:36,502 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.131:9092 <connected> [IPv4 ('192.168.210.131', 9092)]>: Closing connection. 
+2023-04-04 16:13:36,704 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.21:9092 <connecting> [IPv4 ('192.168.210.21', 9092)]>: connecting to 192.168.210.21:9092 [('192.168.210.21', 9092) IPv4]
+2023-04-04 16:13:45,734 [INFO] ES coonection successful.
+2023-04-04 16:13:45,739 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 16:13:45,739 [INFO] Probing node bootstrap-1 broker version
+2023-04-04 16:13:45,740 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 16:13:45,846 [INFO] Broker version identified as 2.5.0
+2023-04-04 16:13:45,846 [INFO] Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-04-04 16:13:45,847 [INFO] Kafka connection successful.
+2023-04-04 16:13:45,851 [INFO] HEAD http://192.168.210.144:9200/products [status:200 request:0.004s]
+2023-04-04 16:13:45,851 [INFO] Index 'products' already exists
+2023-04-04 16:13:45,852 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.21:9092 <connecting> [IPv4 ('192.168.210.21', 9092)]>: connecting to 192.168.210.21:9092 [('192.168.210.21', 9092) IPv4]
+2023-04-04 16:13:45,853 [INFO] Group coordinator for es-sink-app is BrokerMetadata(nodeId='coordinator-0', host='192.168.210.131', port=9092, rack=None)
+2023-04-04 16:13:45,853 [INFO] Discovered coordinator coordinator-0 for group es-sink-app
+2023-04-04 16:13:45,854 [INFO] <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 16:13:45,955 [INFO] <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 16:13:45,955 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.131:9092 <connected> [IPv4 ('192.168.210.131', 9092)]>: Closing connection. 
+2023-04-04 16:13:45,955 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.21:9092 <connecting> [IPv4 ('192.168.210.21', 9092)]>: Closing connection. 
+2023-04-04 16:13:45,956 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.21:9092 <connecting> [IPv4 ('192.168.210.21', 9092)]>: connecting to 192.168.210.21:9092 [('192.168.210.21', 9092) IPv4]
+2023-04-04 16:13:49,315 [INFO] ES coonection successful.
+2023-04-04 16:13:49,315 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 16:13:49,315 [INFO] Probing node bootstrap-1 broker version
+2023-04-04 16:13:49,315 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 16:13:49,421 [INFO] Broker version identified as 2.5.0
+2023-04-04 16:13:49,421 [INFO] Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-04-04 16:13:49,422 [INFO] Kafka connection successful.
+2023-04-04 16:13:49,425 [INFO] HEAD http://192.168.210.144:9200/products [status:200 request:0.003s]
+2023-04-04 16:13:49,425 [INFO] Index 'products' already exists
+2023-04-04 16:13:49,426 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 16:13:49,427 [INFO] Group coordinator for es-sink-app is BrokerMetadata(nodeId='coordinator-0', host='192.168.210.131', port=9092, rack=None)
+2023-04-04 16:13:49,427 [INFO] Discovered coordinator coordinator-0 for group es-sink-app
+2023-04-04 16:13:49,428 [INFO] <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 16:13:49,428 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 16:13:49,530 [INFO] <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 16:13:49,530 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.131:9092 <connected> [IPv4 ('192.168.210.131', 9092)]>: Closing connection. 
+2023-04-04 16:13:49,531 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.76:9092 <connected> [IPv4 ('192.168.210.76', 9092)]>: Closing connection. 
+2023-04-04 16:13:49,745 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 16:13:49,845 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 16:13:50,052 [INFO] <BrokerConnection node_id=1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 16:13:50,052 [INFO] <BrokerConnection node_id=1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 16:13:50,052 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.76:9092 <connected> [IPv4 ('192.168.210.76', 9092)]>: Closing connection. 
+2023-04-04 16:13:50,052 [INFO] New Doc : update
+2023-04-04 16:13:50,052 [WARNING] POST http://192.168.210.144:9200/products/_update/71 [status:400 request:0.000s]
+2023-04-04 16:14:52,441 [INFO] ES coonection successful.
+2023-04-04 16:14:52,457 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.21:9092 <connecting> [IPv4 ('192.168.210.21', 9092)]>: connecting to 192.168.210.21:9092 [('192.168.210.21', 9092) IPv4]
+2023-04-04 16:14:52,457 [INFO] Probing node bootstrap-0 broker version
+2023-04-04 16:14:54,470 [ERROR] Error connecting to Kafka: NoBrokersAvailable
+2023-04-04 16:14:57,484 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 16:14:57,484 [INFO] Probing node bootstrap-1 broker version
+2023-04-04 16:14:57,484 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 16:14:57,589 [INFO] Broker version identified as 2.5.0
+2023-04-04 16:14:57,590 [INFO] Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-04-04 16:14:57,591 [INFO] Kafka connection successful.
+2023-04-04 16:14:57,595 [INFO] HEAD http://192.168.210.144:9200/products [status:200 request:0.003s]
+2023-04-04 16:14:57,595 [INFO] Index 'products' already exists
+2023-04-04 16:14:57,596 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 16:14:57,597 [INFO] Group coordinator for es-sink-app is BrokerMetadata(nodeId='coordinator-0', host='192.168.210.131', port=9092, rack=None)
+2023-04-04 16:14:57,597 [INFO] Discovered coordinator coordinator-0 for group es-sink-app
+2023-04-04 16:14:57,597 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 16:14:57,598 [INFO] <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 16:14:57,699 [INFO] <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 16:14:57,699 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.131:9092 <connected> [IPv4 ('192.168.210.131', 9092)]>: Closing connection. 
+2023-04-04 16:14:57,700 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.76:9092 <connected> [IPv4 ('192.168.210.76', 9092)]>: Closing connection. 
+2023-04-04 16:14:57,913 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.21:9092 <connecting> [IPv4 ('192.168.210.21', 9092)]>: connecting to 192.168.210.21:9092 [('192.168.210.21', 9092) IPv4]
+2023-04-04 16:15:05,782 [INFO] ES coonection successful.
+2023-04-04 16:15:05,782 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 16:15:05,782 [INFO] Probing node bootstrap-2 broker version
+2023-04-04 16:15:05,782 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 16:15:05,887 [INFO] Broker version identified as 2.5.0
+2023-04-04 16:15:05,887 [INFO] Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-04-04 16:15:05,888 [INFO] Kafka connection successful.
+2023-04-04 16:15:05,892 [INFO] HEAD http://192.168.210.144:9200/products [status:200 request:0.004s]
+2023-04-04 16:15:05,892 [INFO] Index 'products' already exists
+2023-04-04 16:15:05,893 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.21:9092 <connecting> [IPv4 ('192.168.210.21', 9092)]>: connecting to 192.168.210.21:9092 [('192.168.210.21', 9092) IPv4]
+2023-04-04 16:15:05,894 [INFO] Group coordinator for es-sink-app is BrokerMetadata(nodeId='coordinator-0', host='192.168.210.131', port=9092, rack=None)
+2023-04-04 16:15:05,894 [INFO] Discovered coordinator coordinator-0 for group es-sink-app
+2023-04-04 16:15:05,895 [INFO] <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 16:15:05,996 [INFO] <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 16:15:05,996 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.76:9092 <connected> [IPv4 ('192.168.210.76', 9092)]>: Closing connection. 
+2023-04-04 16:15:05,996 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.21:9092 <connecting> [IPv4 ('192.168.210.21', 9092)]>: Closing connection. 
+2023-04-04 16:15:05,996 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.21:9092 <connecting> [IPv4 ('192.168.210.21', 9092)]>: connecting to 192.168.210.21:9092 [('192.168.210.21', 9092) IPv4]
+2023-04-04 16:15:15,503 [INFO] ES coonection successful.
+2023-04-04 16:15:15,519 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 16:15:15,519 [INFO] Probing node bootstrap-1 broker version
+2023-04-04 16:15:15,519 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 16:15:15,624 [INFO] Broker version identified as 2.5.0
+2023-04-04 16:15:15,625 [INFO] Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-04-04 16:15:15,626 [INFO] Kafka connection successful.
+2023-04-04 16:15:15,629 [INFO] HEAD http://192.168.210.144:9200/products [status:200 request:0.003s]
+2023-04-04 16:15:15,630 [INFO] Index 'products' already exists
+2023-04-04 16:15:15,631 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 16:15:15,632 [INFO] Group coordinator for es-sink-app is BrokerMetadata(nodeId='coordinator-0', host='192.168.210.131', port=9092, rack=None)
+2023-04-04 16:15:15,632 [INFO] Discovered coordinator coordinator-0 for group es-sink-app
+2023-04-04 16:15:15,633 [INFO] <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 16:15:15,633 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 16:15:15,734 [INFO] <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 16:15:15,734 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.76:9092 <connected> [IPv4 ('192.168.210.76', 9092)]>: Closing connection. 
+2023-04-04 16:15:15,734 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.131:9092 <connected> [IPv4 ('192.168.210.131', 9092)]>: Closing connection. 
+2023-04-04 16:15:15,936 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 16:15:16,036 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 16:15:16,240 [INFO] <BrokerConnection node_id=1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 16:15:16,240 [INFO] <BrokerConnection node_id=1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 16:15:16,240 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.131:9092 <connected> [IPv4 ('192.168.210.131', 9092)]>: Closing connection. 
+2023-04-04 16:15:16,240 [INFO] New Doc : update
+2023-04-04 16:15:16,240 [WARNING] POST http://192.168.210.144:9200/products/_update/71 [status:400 request:0.000s]
+2023-04-04 16:19:29,009 [INFO] ES coonection successful.
+2023-04-04 16:19:29,028 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 16:19:29,028 [INFO] Probing node bootstrap-0 broker version
+2023-04-04 16:19:29,029 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 16:19:29,135 [INFO] Broker version identified as 2.5.0
+2023-04-04 16:19:29,135 [INFO] Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-04-04 16:19:29,136 [INFO] Kafka connection successful.
+2023-04-04 16:19:29,140 [INFO] HEAD http://192.168.210.144:9200/products [status:200 request:0.004s]
+2023-04-04 16:19:29,140 [INFO] Index 'products' already exists
+2023-04-04 16:19:29,141 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 16:19:29,142 [INFO] Group coordinator for es-sink-app is BrokerMetadata(nodeId='coordinator-0', host='192.168.210.131', port=9092, rack=None)
+2023-04-04 16:19:29,147 [INFO] Discovered coordinator coordinator-0 for group es-sink-app
+2023-04-04 16:19:29,149 [INFO] <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 16:19:29,149 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 16:19:29,251 [INFO] <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 16:19:29,251 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.76:9092 <connected> [IPv4 ('192.168.210.76', 9092)]>: Closing connection. 
+2023-04-04 16:19:29,251 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.131:9092 <connected> [IPv4 ('192.168.210.131', 9092)]>: Closing connection. 
+2023-04-04 16:19:29,454 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 16:19:29,554 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 16:19:29,762 [INFO] <BrokerConnection node_id=1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 16:19:29,762 [INFO] <BrokerConnection node_id=1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 16:19:29,762 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.76:9092 <connected> [IPv4 ('192.168.210.76', 9092)]>: Closing connection. 
+2023-04-04 16:19:29,762 [INFO] New Doc : update
+2023-04-04 16:19:29,762 [WARNING] POST http://192.168.210.144:9200/products/_update/71 [status:400 request:0.000s]
+2023-04-04 16:23:39,730 [INFO] ES coonection successful.
+2023-04-04 16:23:39,746 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.21:9092 <connecting> [IPv4 ('192.168.210.21', 9092)]>: connecting to 192.168.210.21:9092 [('192.168.210.21', 9092) IPv4]
+2023-04-04 16:23:39,746 [INFO] Probing node bootstrap-2 broker version
+2023-04-04 16:23:41,775 [ERROR] Error connecting to Kafka: NoBrokersAvailable
+2023-04-04 16:23:44,791 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 16:23:44,791 [INFO] Probing node bootstrap-2 broker version
+2023-04-04 16:23:44,793 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 16:23:44,898 [INFO] Broker version identified as 2.5.0
+2023-04-04 16:23:44,899 [INFO] Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-04-04 16:23:44,899 [INFO] Kafka connection successful.
+2023-04-04 16:23:44,903 [INFO] HEAD http://192.168.210.144:9200/products [status:200 request:0.003s]
+2023-04-04 16:23:44,904 [INFO] Index 'products' already exists
+2023-04-04 16:23:44,904 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 16:23:44,905 [INFO] Group coordinator for es-sink-app is BrokerMetadata(nodeId='coordinator-0', host='192.168.210.131', port=9092, rack=None)
+2023-04-04 16:23:44,906 [INFO] Discovered coordinator coordinator-0 for group es-sink-app
+2023-04-04 16:23:44,906 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 16:23:44,906 [INFO] <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 16:23:45,008 [INFO] <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 16:23:45,008 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.131:9092 <connected> [IPv4 ('192.168.210.131', 9092)]>: Closing connection. 
+2023-04-04 16:23:45,009 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.76:9092 <connected> [IPv4 ('192.168.210.76', 9092)]>: Closing connection. 
+2023-04-04 16:23:45,219 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 16:23:45,319 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 16:23:45,528 [INFO] <BrokerConnection node_id=1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 16:23:45,528 [INFO] <BrokerConnection node_id=1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 16:23:45,528 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.131:9092 <connected> [IPv4 ('192.168.210.131', 9092)]>: Closing connection. 
+2023-04-04 16:23:45,528 [INFO] New Doc : update
+2023-04-04 16:23:45,528 [INFO] POST http://192.168.210.144:9200/products/_update/71 [status:200 request:0.000s]
+2023-04-04 16:23:45,528 [INFO] Doc inserted successfully
+2023-04-04 16:23:45,559 [INFO] New Doc : update
+2023-04-04 16:23:45,562 [INFO] POST http://192.168.210.144:9200/products/_update/72 [status:200 request:0.003s]
+2023-04-04 16:23:45,563 [INFO] Doc inserted successfully
+2023-04-04 16:23:45,570 [INFO] New Doc : update
+2023-04-04 16:23:45,573 [INFO] POST http://192.168.210.144:9200/products/_update/73 [status:200 request:0.003s]
+2023-04-04 16:23:45,573 [INFO] Doc inserted successfully
+2023-04-04 16:24:46,339 [INFO] ES coonection successful.
+2023-04-04 16:24:46,339 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.21:9092 <connecting> [IPv4 ('192.168.210.21', 9092)]>: connecting to 192.168.210.21:9092 [('192.168.210.21', 9092) IPv4]
+2023-04-04 16:24:46,339 [INFO] Probing node bootstrap-0 broker version
+2023-04-04 16:24:48,350 [ERROR] Error connecting to Kafka: NoBrokersAvailable
+2023-04-04 16:24:51,352 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.21:9092 <connecting> [IPv4 ('192.168.210.21', 9092)]>: connecting to 192.168.210.21:9092 [('192.168.210.21', 9092) IPv4]
+2023-04-04 16:24:51,352 [INFO] Probing node bootstrap-2 broker version
+2023-04-04 16:24:53,356 [ERROR] Error connecting to Kafka: NoBrokersAvailable
+2023-04-04 16:24:56,370 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 16:24:56,370 [INFO] Probing node bootstrap-0 broker version
+2023-04-04 16:24:56,370 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 16:24:56,475 [INFO] Broker version identified as 2.5.0
+2023-04-04 16:24:56,475 [INFO] Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-04-04 16:24:56,476 [INFO] Kafka connection successful.
+2023-04-04 16:24:56,493 [INFO] HEAD http://192.168.210.144:9200/products [status:200 request:0.016s]
+2023-04-04 16:24:56,494 [INFO] Index 'products' already exists
+2023-04-04 16:24:56,496 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 16:24:56,497 [INFO] Group coordinator for es-sink-app is BrokerMetadata(nodeId='coordinator-0', host='192.168.210.131', port=9092, rack=None)
+2023-04-04 16:24:56,497 [INFO] Discovered coordinator coordinator-0 for group es-sink-app
+2023-04-04 16:24:56,498 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 16:24:56,499 [INFO] <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 16:24:56,599 [INFO] <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 16:24:56,599 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.131:9092 <connected> [IPv4 ('192.168.210.131', 9092)]>: Closing connection. 
+2023-04-04 16:24:56,600 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.76:9092 <connected> [IPv4 ('192.168.210.76', 9092)]>: Closing connection. 
+2023-04-04 16:24:56,801 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 16:24:56,902 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 16:24:57,105 [INFO] <BrokerConnection node_id=1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 16:24:57,106 [INFO] <BrokerConnection node_id=1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 16:24:57,106 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.76:9092 <connected> [IPv4 ('192.168.210.76', 9092)]>: Closing connection. 
+2023-04-04 16:25:42,812 [INFO] ES coonection successful.
+2023-04-04 16:25:42,817 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 16:25:42,817 [INFO] Probing node bootstrap-1 broker version
+2023-04-04 16:25:42,818 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 16:25:42,924 [INFO] Broker version identified as 2.5.0
+2023-04-04 16:25:42,925 [INFO] Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-04-04 16:25:42,926 [INFO] Kafka connection successful.
+2023-04-04 16:25:42,929 [INFO] HEAD http://192.168.210.144:9200/products [status:200 request:0.003s]
+2023-04-04 16:25:42,930 [INFO] Index 'products' already exists
+2023-04-04 16:25:42,930 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 16:25:42,931 [INFO] Group coordinator for es-sink-app is BrokerMetadata(nodeId='coordinator-0', host='192.168.210.131', port=9092, rack=None)
+2023-04-04 16:25:42,931 [INFO] Discovered coordinator coordinator-0 for group es-sink-app
+2023-04-04 16:25:42,932 [INFO] <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 16:25:42,932 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 16:25:43,034 [INFO] <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 16:25:43,034 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.76:9092 <connected> [IPv4 ('192.168.210.76', 9092)]>: Closing connection. 
+2023-04-04 16:25:43,035 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.131:9092 <connected> [IPv4 ('192.168.210.131', 9092)]>: Closing connection. 
+2023-04-04 16:25:43,236 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 16:25:43,336 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 16:25:43,539 [INFO] <BrokerConnection node_id=1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 16:25:43,540 [INFO] <BrokerConnection node_id=1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 16:25:43,540 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.131:9092 <connected> [IPv4 ('192.168.210.131', 9092)]>: Closing connection. 
+2023-04-04 16:29:47,326 [INFO] New Doc : delete
+2023-04-04 16:29:47,332 [INFO] New Doc : delete
+2023-04-04 16:29:47,334 [INFO] New Doc : delete
+2023-04-04 16:30:43,501 [INFO] <BrokerConnection node_id=0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 16:30:43,501 [INFO] <BrokerConnection node_id=0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 16:36:36,692 [INFO] ES coonection successful.
+2023-04-04 16:36:36,692 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 16:36:36,692 [INFO] Probing node bootstrap-1 broker version
+2023-04-04 16:36:36,692 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 16:36:36,797 [INFO] Broker version identified as 2.5.0
+2023-04-04 16:36:36,797 [INFO] Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-04-04 16:36:36,798 [INFO] Kafka connection successful.
+2023-04-04 16:36:36,802 [INFO] HEAD http://192.168.210.144:9200/products [status:200 request:0.004s]
+2023-04-04 16:36:36,802 [INFO] Index 'products' already exists
+2023-04-04 16:36:36,803 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 16:36:36,804 [INFO] Group coordinator for es-sink-app is BrokerMetadata(nodeId='coordinator-0', host='192.168.210.131', port=9092, rack=None)
+2023-04-04 16:36:36,804 [INFO] Discovered coordinator coordinator-0 for group es-sink-app
+2023-04-04 16:36:36,804 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 16:36:36,805 [INFO] <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 16:36:36,906 [INFO] <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 16:36:36,906 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.76:9092 <connected> [IPv4 ('192.168.210.76', 9092)]>: Closing connection. 
+2023-04-04 16:36:36,907 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.131:9092 <connected> [IPv4 ('192.168.210.131', 9092)]>: Closing connection. 
+2023-04-04 16:36:37,109 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 16:36:37,209 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 16:36:37,424 [INFO] <BrokerConnection node_id=1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 16:36:37,424 [INFO] <BrokerConnection node_id=1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 16:36:37,424 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.76:9092 <connected> [IPv4 ('192.168.210.76', 9092)]>: Closing connection. 
+2023-04-04 16:38:16,935 [INFO] ES coonection successful.
+2023-04-04 16:38:16,935 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.21:9092 <connecting> [IPv4 ('192.168.210.21', 9092)]>: connecting to 192.168.210.21:9092 [('192.168.210.21', 9092) IPv4]
+2023-04-04 16:38:16,935 [INFO] Probing node bootstrap-1 broker version
+2023-04-04 16:38:18,937 [ERROR] Error connecting to Kafka: NoBrokersAvailable
+2023-04-04 16:38:23,938 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 16:38:23,938 [INFO] Probing node bootstrap-2 broker version
+2023-04-04 16:38:23,939 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 16:38:24,046 [INFO] Broker version identified as 2.5.0
+2023-04-04 16:38:24,046 [INFO] Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-04-04 16:38:24,047 [INFO] Kafka connection successful.
+2023-04-04 16:38:24,060 [INFO] HEAD http://192.168.210.144:9200/products [status:200 request:0.014s]
+2023-04-04 16:38:24,061 [INFO] Index 'products' already exists
+2023-04-04 16:38:24,062 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.21:9092 <connecting> [IPv4 ('192.168.210.21', 9092)]>: connecting to 192.168.210.21:9092 [('192.168.210.21', 9092) IPv4]
+2023-04-04 16:38:24,062 [INFO] Group coordinator for es-sink-app is BrokerMetadata(nodeId='coordinator-0', host='192.168.210.131', port=9092, rack=None)
+2023-04-04 16:38:24,063 [INFO] Discovered coordinator coordinator-0 for group es-sink-app
+2023-04-04 16:38:24,063 [INFO] <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 16:38:24,165 [INFO] <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 16:38:24,165 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.131:9092 <connected> [IPv4 ('192.168.210.131', 9092)]>: Closing connection. 
+2023-04-04 16:38:24,165 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.21:9092 <connecting> [IPv4 ('192.168.210.21', 9092)]>: Closing connection. 
+2023-04-04 16:38:24,166 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.21:9092 <connecting> [IPv4 ('192.168.210.21', 9092)]>: connecting to 192.168.210.21:9092 [('192.168.210.21', 9092) IPv4]
+2023-04-04 16:40:31,092 [INFO] ES coonection successful.
+2023-04-04 16:40:31,092 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 16:40:31,092 [INFO] Probing node bootstrap-1 broker version
+2023-04-04 16:40:31,092 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 16:40:31,198 [INFO] Broker version identified as 2.5.0
+2023-04-04 16:40:31,198 [INFO] Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-04-04 16:40:31,200 [INFO] Kafka connection successful.
+2023-04-04 16:40:31,204 [INFO] HEAD http://192.168.210.144:9200/products [status:200 request:0.004s]
+2023-04-04 16:40:31,204 [INFO] Index 'products' already exists
+2023-04-04 16:40:31,205 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 16:40:31,206 [INFO] Group coordinator for es-sink-app is BrokerMetadata(nodeId='coordinator-0', host='192.168.210.131', port=9092, rack=None)
+2023-04-04 16:40:31,206 [INFO] Discovered coordinator coordinator-0 for group es-sink-app
+2023-04-04 16:40:31,207 [INFO] <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 16:40:31,207 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 16:40:31,308 [INFO] <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 16:40:31,308 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.76:9092 <connected> [IPv4 ('192.168.210.76', 9092)]>: Closing connection. 
+2023-04-04 16:40:31,308 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.131:9092 <connected> [IPv4 ('192.168.210.131', 9092)]>: Closing connection. 
+2023-04-04 16:40:31,510 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 16:40:31,611 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 16:40:31,826 [INFO] <BrokerConnection node_id=1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 16:40:31,826 [INFO] <BrokerConnection node_id=1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 16:40:31,826 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.131:9092 <connected> [IPv4 ('192.168.210.131', 9092)]>: Closing connection. 
+2023-04-04 16:40:31,826 [INFO] Starting listening.
+2023-04-04 16:40:31,826 [INFO] New Doc : insert
+2023-04-04 16:40:31,826 [INFO] PUT http://192.168.210.144:9200/products/_doc/74 [status:201 request:0.000s]
+2023-04-04 16:40:31,826 [INFO] Doc inserted successfully
+2023-04-04 16:40:31,826 [INFO] Starting listening.
+2023-04-04 16:40:31,826 [INFO] New Doc : insert
+2023-04-04 16:40:31,841 [INFO] PUT http://192.168.210.144:9200/products/_doc/75 [status:201 request:0.016s]
+2023-04-04 16:40:31,841 [INFO] Doc inserted successfully
+2023-04-04 16:40:31,841 [INFO] Starting listening.
+2023-04-04 16:40:31,841 [INFO] New Doc : insert
+2023-04-04 16:40:31,841 [INFO] PUT http://192.168.210.144:9200/products/_doc/76 [status:201 request:0.000s]
+2023-04-04 16:40:31,841 [INFO] Doc inserted successfully
+2023-04-04 16:42:06,522 [INFO] ES coonection successful.
+2023-04-04 16:42:06,522 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.21:9092 <connecting> [IPv4 ('192.168.210.21', 9092)]>: connecting to 192.168.210.21:9092 [('192.168.210.21', 9092) IPv4]
+2023-04-04 16:42:06,522 [INFO] Probing node bootstrap-1 broker version
+2023-04-04 16:42:08,523 [ERROR] Error connecting to Kafka: NoBrokersAvailable
+2023-04-04 16:42:13,525 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.21:9092 <connecting> [IPv4 ('192.168.210.21', 9092)]>: connecting to 192.168.210.21:9092 [('192.168.210.21', 9092) IPv4]
+2023-04-04 16:42:13,525 [INFO] Probing node bootstrap-1 broker version
+2023-04-04 16:42:15,545 [ERROR] Error connecting to Kafka: NoBrokersAvailable
+2023-04-04 16:42:20,558 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 16:42:20,558 [INFO] Probing node bootstrap-2 broker version
+2023-04-04 16:42:20,559 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 16:42:20,665 [INFO] Broker version identified as 2.5.0
+2023-04-04 16:42:20,665 [INFO] Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-04-04 16:42:20,666 [INFO] Kafka connection successful.
+2023-04-04 16:42:20,670 [INFO] HEAD http://192.168.210.144:9200/products [status:200 request:0.004s]
+2023-04-04 16:42:20,670 [INFO] Index 'products' already exists
+2023-04-04 16:42:20,670 [INFO] Starting listening.
+2023-04-04 16:42:20,671 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 16:42:20,672 [INFO] Group coordinator for es-sink-app is BrokerMetadata(nodeId='coordinator-0', host='192.168.210.131', port=9092, rack=None)
+2023-04-04 16:42:20,672 [INFO] Discovered coordinator coordinator-0 for group es-sink-app
+2023-04-04 16:42:20,673 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 16:42:20,673 [INFO] <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-04 16:42:20,775 [INFO] <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-04 16:42:20,775 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.76:9092 <connected> [IPv4 ('192.168.210.76', 9092)]>: Closing connection. 
+2023-04-04 16:42:20,776 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.131:9092 <connected> [IPv4 ('192.168.210.131', 9092)]>: Closing connection. 
+2023-04-04 16:42:20,987 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 16:42:21,087 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 16:42:21,296 [INFO] <BrokerConnection node_id=1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-04 16:42:21,296 [INFO] <BrokerConnection node_id=1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-04 16:42:21,296 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.76:9092 <connected> [IPv4 ('192.168.210.76', 9092)]>: Closing connection. 
+2023-04-04 16:42:48,349 [INFO] New Doc : update
+2023-04-04 16:42:48,355 [INFO] POST http://192.168.210.144:9200/products/_update/74 [status:200 request:0.005s]
+2023-04-04 16:42:48,356 [INFO] Doc updated successfully
+2023-04-04 16:42:48,374 [INFO] New Doc : update
+2023-04-04 16:42:48,378 [INFO] POST http://192.168.210.144:9200/products/_update/75 [status:200 request:0.003s]
+2023-04-04 16:42:48,379 [INFO] Doc updated successfully
+2023-04-04 16:42:48,416 [INFO] New Doc : update
+2023-04-04 16:42:48,419 [INFO] POST http://192.168.210.144:9200/products/_update/76 [status:200 request:0.003s]
+2023-04-04 16:42:48,481 [INFO] Doc updated successfully
+2023-04-04 16:43:23,374 [INFO] New Doc : delete
+2023-04-04 16:43:23,374 [INFO] DELETE http://192.168.210.144:9200/products/_doc/74 [status:200 request:0.000s]
+2023-04-04 16:43:23,374 [INFO] Doc deleted successfully
+2023-04-04 16:43:23,374 [INFO] New Doc : delete
+2023-04-04 16:43:23,393 [INFO] DELETE http://192.168.210.144:9200/products/_doc/75 [status:200 request:0.003s]
+2023-04-04 16:43:23,393 [INFO] Doc deleted successfully
+2023-04-04 16:43:23,397 [INFO] New Doc : delete
+2023-04-04 16:43:23,401 [INFO] DELETE http://192.168.210.144:9200/products/_doc/76 [status:200 request:0.003s]
+2023-04-04 16:43:23,401 [INFO] Doc deleted successfully
+2023-04-04 16:47:21,264 [INFO] <BrokerConnection node_id=2 host=192.168.210.214:9092 <connecting> [IPv4 ('192.168.210.214', 9092)]>: connecting to 192.168.210.214:9092 [('192.168.210.214', 9092) IPv4]
+2023-04-04 16:47:21,264 [INFO] <BrokerConnection node_id=2 host=192.168.210.214:9092 <connecting> [IPv4 ('192.168.210.214', 9092)]>: Connection complete.
+2023-04-04 16:49:08,972 [INFO] New Doc : insert
+2023-04-04 16:49:09,026 [INFO] PUT http://192.168.210.144:9200/products/_doc/77 [status:201 request:0.047s]
+2023-04-04 16:49:09,029 [INFO] Doc inserted successfully
+2023-04-04 16:49:09,034 [INFO] New Doc : insert
+2023-04-04 16:49:09,037 [INFO] PUT http://192.168.210.144:9200/products/_doc/78 [status:201 request:0.002s]
+2023-04-04 16:49:09,038 [INFO] Doc inserted successfully
+2023-04-04 16:49:09,041 [INFO] New Doc : insert
+2023-04-04 16:49:09,044 [INFO] PUT http://192.168.210.144:9200/products/_doc/79 [status:201 request:0.003s]
+2023-04-04 16:49:09,047 [INFO] Doc inserted successfully
+2023-04-04 16:52:54,020 [INFO] New Doc : update
+2023-04-04 16:52:54,025 [INFO] POST http://192.168.210.144:9200/products/_update/77 [status:200 request:0.005s]
+2023-04-04 16:52:54,025 [INFO] Doc updated successfully
+2023-04-04 16:52:54,029 [INFO] New Doc : update
+2023-04-04 16:52:54,033 [INFO] POST http://192.168.210.144:9200/products/_update/78 [status:200 request:0.003s]
+2023-04-04 16:52:54,033 [INFO] Doc updated successfully
+2023-04-04 16:52:54,035 [INFO] New Doc : update
+2023-04-04 16:52:54,041 [INFO] POST http://192.168.210.144:9200/products/_update/79 [status:200 request:0.003s]
+2023-04-04 16:52:54,042 [INFO] Doc updated successfully
+2023-04-04 16:53:19,038 [INFO] New Doc : delete
+2023-04-04 16:53:19,057 [INFO] DELETE http://192.168.210.144:9200/products/_doc/77 [status:200 request:0.020s]
+2023-04-04 16:53:19,058 [INFO] Doc deleted successfully
+2023-04-04 16:53:19,062 [INFO] New Doc : delete
+2023-04-04 16:53:19,065 [INFO] DELETE http://192.168.210.144:9200/products/_doc/78 [status:200 request:0.002s]
+2023-04-04 16:53:19,066 [INFO] Doc deleted successfully
+2023-04-04 16:53:19,068 [INFO] New Doc : delete
+2023-04-04 16:53:19,071 [INFO] DELETE http://192.168.210.144:9200/products/_doc/79 [status:200 request:0.003s]
+2023-04-04 16:53:19,071 [INFO] Doc deleted successfully
+2023-04-05 15:15:21,667 [INFO] ES coonection successful.
+2023-04-05 15:15:21,800 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.21:9092 <connecting> [IPv4 ('192.168.210.21', 9092)]>: connecting to 192.168.210.21:9092 [('192.168.210.21', 9092) IPv4]
+2023-04-05 15:15:21,800 [INFO] Probing node bootstrap-1 broker version
+2023-04-05 15:15:23,802 [ERROR] Error connecting to Kafka: NoBrokersAvailable
+2023-04-05 15:15:28,804 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-05 15:15:28,804 [INFO] Probing node bootstrap-0 broker version
+2023-04-05 15:15:28,804 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-05 15:15:28,910 [INFO] Broker version identified as 2.5.0
+2023-04-05 15:15:28,910 [INFO] Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-04-05 15:15:28,911 [INFO] Kafka connection successful.
+2023-04-05 15:15:28,916 [INFO] HEAD http://192.168.210.144:9200/products [status:200 request:0.004s]
+2023-04-05 15:15:28,917 [INFO] Index 'products' already exists
+2023-04-05 15:15:28,917 [INFO] Starting listening.
+2023-04-05 15:15:28,917 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-05 15:15:28,918 [INFO] Group coordinator for es-sink-app is BrokerMetadata(nodeId='coordinator-0', host='192.168.210.131', port=9092, rack=None)
+2023-04-05 15:15:28,918 [INFO] Discovered coordinator coordinator-0 for group es-sink-app
+2023-04-05 15:15:28,918 [INFO] <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-05 15:15:28,919 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-05 15:15:29,021 [INFO] <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-05 15:15:29,021 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.76:9092 <connected> [IPv4 ('192.168.210.76', 9092)]>: Closing connection. 
+2023-04-05 15:15:29,022 [INFO] <BrokerConnection node_id=bootstrap-1 host=192.168.210.131:9092 <connected> [IPv4 ('192.168.210.131', 9092)]>: Closing connection. 
+2023-04-05 15:15:29,234 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.21:9092 <connecting> [IPv4 ('192.168.210.21', 9092)]>: connecting to 192.168.210.21:9092 [('192.168.210.21', 9092) IPv4]
+2023-04-05 15:15:33,982 [INFO] ES coonection successful.
+2023-04-05 15:15:33,986 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-05 15:15:33,987 [INFO] Probing node bootstrap-0 broker version
+2023-04-05 15:15:33,988 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-05 15:15:34,094 [INFO] Broker version identified as 2.5.0
+2023-04-05 15:15:34,095 [INFO] Set configuration api_version=(2, 5, 0) to skip auto check_version requests on startup
+2023-04-05 15:15:34,096 [INFO] Kafka connection successful.
+2023-04-05 15:15:34,100 [INFO] HEAD http://192.168.210.144:9200/products [status:200 request:0.003s]
+2023-04-05 15:15:34,101 [INFO] Index 'products' already exists
+2023-04-05 15:15:34,102 [INFO] Starting listening.
+2023-04-05 15:15:34,103 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-05 15:15:34,104 [INFO] Group coordinator for es-sink-app is BrokerMetadata(nodeId='coordinator-0', host='192.168.210.131', port=9092, rack=None)
+2023-04-05 15:15:34,104 [INFO] Discovered coordinator coordinator-0 for group es-sink-app
+2023-04-05 15:15:34,106 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-05 15:15:34,112 [INFO] <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: connecting to 192.168.210.131:9092 [('192.168.210.131', 9092) IPv4]
+2023-04-05 15:15:34,214 [INFO] <BrokerConnection node_id=coordinator-0 host=192.168.210.131:9092 <connecting> [IPv4 ('192.168.210.131', 9092)]>: Connection complete.
+2023-04-05 15:15:34,214 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.76:9092 <connected> [IPv4 ('192.168.210.76', 9092)]>: Closing connection. 
+2023-04-05 15:15:34,215 [INFO] <BrokerConnection node_id=bootstrap-2 host=192.168.210.131:9092 <connected> [IPv4 ('192.168.210.131', 9092)]>: Closing connection. 
+2023-04-05 15:15:34,431 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-05 15:15:34,532 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-05 15:15:34,740 [INFO] <BrokerConnection node_id=1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: connecting to 192.168.210.76:9092 [('192.168.210.76', 9092) IPv4]
+2023-04-05 15:15:34,740 [INFO] <BrokerConnection node_id=1 host=192.168.210.76:9092 <connecting> [IPv4 ('192.168.210.76', 9092)]>: Connection complete.
+2023-04-05 15:15:34,740 [INFO] <BrokerConnection node_id=bootstrap-0 host=192.168.210.76:9092 <connected> [IPv4 ('192.168.210.76', 9092)]>: Closing connection. 
+2023-04-05 15:16:40,898 [INFO] New Doc : insert
+2023-04-05 15:16:40,905 [INFO] PUT http://192.168.210.144:9200/products/_doc/80 [status:201 request:0.005s]
+2023-04-05 15:16:40,905 [INFO] Doc inserted successfully
+2023-04-05 15:16:40,911 [INFO] New Doc : insert
+2023-04-05 15:16:40,914 [INFO] PUT http://192.168.210.144:9200/products/_doc/81 [status:201 request:0.003s]
+2023-04-05 15:16:40,915 [INFO] Doc inserted successfully
+2023-04-05 15:16:40,919 [INFO] New Doc : insert
+2023-04-05 15:16:40,930 [INFO] PUT http://192.168.210.144:9200/products/_doc/82 [status:201 request:0.008s]
+2023-04-05 15:16:40,933 [INFO] Doc inserted successfully
