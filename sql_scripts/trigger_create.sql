@@ -1,3 +1,7 @@
+-- When changes occured in product table, it will trigger the associated trigger log_table_changes with table.
+-- Associated trigger is configured to call log_changes function and execute for each changed row.
+-- Function add related data record to log_table table to be tracked by external application.
+
 CREATE TABLE log_table (
   operation CHAR(6) NOT NULL, -- insert, update, or delete
   table_name VARCHAR(50) NOT NULL,
@@ -43,6 +47,11 @@ FOR EACH ROW
 EXECUTE FUNCTION log_changes();
 
 
+-- checking whether trigger already exists
 SELECT * FROM information_schema.triggers WHERE event_object_table = 'products';
+
+-- dropping trigger on product table
 DROP TRIGGER log_table_changes ON products;
+
+-- dropping related function
 DROP FUNCTION log_changes();
